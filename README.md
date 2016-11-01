@@ -1,2 +1,2 @@
-# prathyushasai.github.io
+# Prathyusha Charagondla
 Personal Website.
