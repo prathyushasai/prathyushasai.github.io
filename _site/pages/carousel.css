@@ -106,6 +106,17 @@ body {
     background-position: center; 
     position: relative;
 }
+section.box {
+  background-color: rgba(255,255,255,0.5);
+  width: 1000px;
+  height: 525px; /*500 - touches nav bar*/
+  margin-left:140px;
+  margin-right:auto;
+  background-position: center;
+  margin-top: 130px;
+  margin-bottom: 40px;
+  position: fixed;
+}
 #wrapper {
   width:100%;
   margin:0 auto;
@@ -123,6 +134,19 @@ body {
   text-align: center;
   text-shadow: 0 2px 1px #fff;
   padding-bottom: 35px;
+}
+#div1 {
+  color: rgba(0,0,0,0.70);/*#fdff8e;*/
+  position: fixed;      
+  bottom: 10px; 
+  width: 100%;
+  text-align: center;
+}
+.container {
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 900px;
 }
 #main-nav {
   /*margin-top: 40px;*/
