@@ -59,9 +59,28 @@ input:focus, textarea:focus {
 	opacity:.9;
 }
 </style>
+<script src="jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
 <body>
+<!--https://docs.google.com/forms/d/e/1FAIpQLSdCwloCw4LUrBQZ_6fdrm3FDpAXW_5R1tSL-65dq0mf-rks_Q/viewform?usp=pp_url&entry.2056365199=s&entry.573762500=a&entry.513566809=s-->
+    <form name="gform" id="gform" enctype="text/plain" action="https://goo.gl/forms/jyz49MfP0Zv9PgjA3" target="hidden_iframe" onsubmit="submitted=true;">
+  First name:<br>
+  <input type="text" name="entry.2056365199" id="entry.2056365199"><br>
+  Last name:<br>
+  <input type="text" name="entry.573762500" id="entry.573762500"><br>
+  Message:<br>
+   <input type="text" name="entry.513566809" id="entry.513566809">
+  <input type="submit" value="Submit">
+</form>
 
-    <header class="body">
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    <!--header class="body">
     </header>
 
     <section class="body">
@@ -82,7 +101,7 @@ input:focus, textarea:focus {
     </section>
 
     <footer class="body">
-    </footer>
+    </footer-->
 
 </body>
 

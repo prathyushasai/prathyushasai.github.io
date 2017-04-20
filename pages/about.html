@@ -17,73 +17,20 @@ body {
     background-image: url(../images/about1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center; 
-    position: relative;
+    position: fixed;
 }
-section.box {
-  background-color: rgba(5,4,2,0.5);
-  width: 1000px;
-  height: 525px; /*500 - touches nav bar*/
-  margin-left:140px;
-  margin-right:auto;
-  background-position: center;
-  margin-top: 13px;
-  margin-bottom: 40px;
-  position: fixed;
-}
-section.box2 {
-  width: 580px;
-  height: 525px;
-  margin-right:auto;
-  background-position: center;
-  margin-top: 13px;
-  margin-bottom: 40px;
-  position: fixed;
-  margin-left: 535px;
-  /*Comfortaa, Alice, Lancelot, Forum*/
-  font-family: Forum;
 
-}
-      article {
-        clear: both;
-        overflow: auto;
-        width: 100%;
-      }
-      hgroup {
-        margin-top: 30px;
-        text-align: center;
-      }
+/* Navigation Bar*/
 #wrapper {
   width:100%;
   margin:0 auto;
   list-style:none;
-  position: relative;
-}
-#wrapper h1 {
-  font-family: IM Fell French Canon SC;
-  font-size: 60px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-  margin: 90px 0 20px;
-  text-align: center;
-  text-shadow: 0 2px 1px #fff;
-  padding-bottom: 35px;
-}
-#div1 {
-  color: rgba(0,0,0,0.70);/*#fdff8e;*/
-  position: fixed;      
-  bottom: 10px; 
-  width: 100%;
-  text-align: center;
-}
-.container {
-  box-shadow: 0 0 10px #ccc;
-  margin-bottom: 40px;
-  padding: 20px;
-  width: 900px;
+  position: fixed;
+  z-index: 9999;
+  min-width: 2000px;
+  overflow: auto;
 }
 #main-nav {
   margin-top: 40px;
@@ -124,7 +71,7 @@ section.box2 {
   display: block;
   padding: 20px;
   position: relative;
-  width: 134.2px;
+  width: 131.2px;
   text-decoration: none;
   text-shadow: 0 1px 1px #000;
   color: rgba(255,255,255, 0.75);
@@ -140,29 +87,50 @@ section.box2 {
 #main-nav ul li:hover {
   background: rgba(0,0,0,0.75);
 }
-/* First Level drop-down */
-#main-nav ul li ul {
-  display: none;
+
+/* Create Sections */
+.section {
+    width: 100%;
+    min-height: 100%;
+    padding-top: 115px;
+    position: relative;
+    overflow-x: auto;
 }
-#main-nav ul li:hover ul {
-  background: url(images/trans_green-70.png);
-  display: block;
-  font-size: .9em;
-  font-weight: normal;
-  padding: 10px;
-  position: absolute;
+/* About Me. */
+/* Description. */
+section.box2 {
+  width: 580px;
+  height: 525px;
+  margin-right:auto;
+  background-position: center;
+  /*margin-top: 13px;*/
+  margin-bottom: 40px;
+  position: fixed;
+  margin-left: 535px;
+  /*Comfortaa, Alice, Lancelot, Forum*/
+  font-family: Forum;
+
 }
-#main-nav ul li ul li {
-  float: none;
-  display: block;
-  border-left: none;
-  position: relative;
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
 }
-#main-nav ul li ul li a {
-  width: 170px;
-  padding: 15px 10px;
-  border-top: dotted 1px #7dad16;
-  color: #fff;
+hgroup {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Picture Changing Hexagon. */
+section.box {
+  background-color: rgba(5,4,2,0.5);
+  width: 1000px;
+  height: 525px; /*500 - touches nav bar*/
+  margin-left:140px;
+  margin-right:auto;
+  background-position: center;
+  margin-bottom: 40px;
+  position: fixed;
 }
 #hex {
   margin-left: 30px;
@@ -231,6 +199,7 @@ section.box2 {
     </div>
 </div>
 <article>
+<section class = "section">
   <section class="box">
       <div id= hex > <div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div> </div>
     </section>
@@ -243,10 +212,11 @@ section.box2 {
         <p style="float:right; color:#fff;display: inline-block;
         margin-left: 30px;line-height: 25px;">Hi! My name is Prathyusha Charagondla! I am a second year Computer Science major at UC Berkeley. I have a vested interest in Data Science and Machine Learning and am pursuing this interest both in academia and outside. Check out my <a href=projects.html style="color: white";>projects</a> for more of my pursuits! 
         <br /><br />
-        Outside of academia, I am involved with the corporate and industrial relations side of Society for Women Engineers and ANova, a Computer Science Education club focused on educated students from underresourced communities. Check out my <a href=https://drive.google.com/file/d/0B-gwprSB9GjDcFFodzlTRU9vRDg/view?usp=sharing style="color: white";>resume</a> for more details!
+        Outside of academia, I am involved with the corporate and industrial relations side of Society for Women Engineers and ANova, a Computer Science Education club focused on educated students from underresourced communities. Check out my <a href=http://bit.ly/2opotzM style="color: white";>resume</a> for more details!
         <br /><br />
-        My hobbies are dancing an Indian Classical Dance called Kuchipudi, playing the piano and practicing yoga. I also love learning new languages - whether they are foreign languages or programming languages and traveling and exploring new cultures and countries. I am currently learning my 4th language - Chinese! I have so far visited 7 different countries including Singapore, Saudi Arabia and France. However, I hope to reach my lofty goal of visiting 50 someday. Click on my photo to see all the places I've visited!</p>    
+        My hobbies are dancing an Indian Classical Dance called Kuchipudi, playing the piano and practicing yoga. I also love learning new languages - whether they are foreign languages or programming languages and traveling and exploring new cultures and countries. I am currently learning my 4th language - Chinese! I have so far visited 8 different countries including Singapore, Saudi Arabia and France. However, I hope to reach my lofty goal of visiting 50 someday. Click on my photo to see all the places I've visited!</p>    
   </section>
+</section>
 </article>
 <!--div id="div1">
 <p><br /><br /><br /><br />Made with &#10084; by Prathyusha Charagondla</a></p>
