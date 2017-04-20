@@ -70,13 +70,13 @@ $('#gform').on('submit', function(e) {
 <body>
 <!--https://docs.google.com/forms/d/e/1FAIpQLSdCwloCw4LUrBQZ_6fdrm3FDpAXW_5R1tSL-65dq0mf-rks_Q/viewform?usp=pp_url&entry.2056365199=s&entry.573762500=a&entry.513566809=s-->
     <form name="gform" id="gform" enctype="text/plain" action="https://goo.gl/forms/jyz49MfP0Zv9PgjA3" target="hidden_iframe" onsubmit="submitted=true;">
-  First name:<br>
-  <input type="text" name="entry.2056365199" id="entry.2056365199"><br>
-  Last name:<br>
-  <input type="text" name="entry.573762500" id="entry.573762500"><br>
-  Message:<br>
-   <input type="text" name="entry.513566809" id="entry.513566809">
-  <input type="submit" value="Submit">
+  <label>Name</label>
+  <input placeholder="Type Here" required type="text" name="entry.2056365199" id="entry.2056365199">
+  <label>Email</label>
+  <input type="text" name="entry.573762500" id="entry.573762500" placeholder="Type Here" required>
+  <label>Message</label>
+   <input type="text" name="entry.513566809" id="entry.513566809" placeholder="Type Here" required>
+  <input id="submit" name="submit" type="submit" value="Submit">
 </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
