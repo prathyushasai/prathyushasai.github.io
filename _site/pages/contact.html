@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Contact Form</title>
 </head>
-<!--style type="text/css">
+<style type="text/css">
 label {
     display:block;
     margin-top:20px;
@@ -59,7 +59,7 @@ input:focus, textarea:focus {
 	opacity:.9;
 }
 </style>
-<script src="jquery.min.js"></script>
+<!--script src="jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
@@ -69,12 +69,15 @@ $('#gform').on('submit', function(e) {
 </script-->
 
 <body>
+<header class="body">
+    </header>
+<section class="body">
 <form id="contact" method="POST">
     <p>Name </p><input type="text" name="name" placeholder="Type Here" required><br/>
     <p>Email </p><input type="email" name="_replyto" placeholder="Type Here" required><br/>
     <input type="hidden" name="_subject" value="Website contact" />
     <p>Message </p><textarea placeholder="Type Here"></textarea><br/>
-    <input type="submit" value="Send">
+    <input id="submit" type="submit" value="Send">
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_next" value="thanks.html" />
 </form>
@@ -82,6 +85,9 @@ $('#gform').on('submit', function(e) {
     var contactform =  document.getElementById('contact');
     contactform.setAttribute('action', '//formspree.io/' + 'prathyushawe' + '@' + 'gmail' + '.' + 'com');
 </script>
+</section>
+    <footer class="body">
+    </footer>
 <!--https://docs.google.com/forms/d/e/1FAIpQLSdCwloCw4LUrBQZ_6fdrm3FDpAXW_5R1tSL-65dq0mf-rks_Q/viewform?usp=pp_url&entry.2056365199=s&entry.573762500=a&entry.513566809=s-->
     <!--form name="gform" id="gform" enctype="text/plain" action="https://goo.gl/forms/jyz49MfP0Zv9PgjA3" target="hidden_iframe" onsubmit="submitted=true;">
   <label>Name</label>
