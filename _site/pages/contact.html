@@ -67,8 +67,12 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('Your submission has been processed...');
   });
 </script-->
+<script>
+    var contactform =  document.getElementById('contact');
+    contactform.setAttribute('action', '//formspree.io/' + 'prathyushawe' + '@' + 'gmail' + '.' + 'com');
+</script>
 <body>
-<form action="contact" method="POST">
+<form id="contact" method="POST">
     <p>Name </p><input type="text" name="name" placeholder="Type Here" required><br/>
     <p>Email </p><input type="email" name="_replyto" placeholder="Type Here" required><br/>
     <input type="hidden" name="_subject" value="Website contact" />
@@ -113,9 +117,5 @@ $('#gform').on('submit', function(e) {
     </footer-->
 
 </body>
-<script>
-    var contactform =  document.getElementById('contact');
-    contactform.setAttribute('action', '//formspree.io/' + 'prathyushawe' + '@' + 'gmail' + '.' + 'com');
-</script>
 
 </html>
