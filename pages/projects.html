@@ -1,13 +1,16 @@
 <!DOCTYPE html">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PC | Projects</title>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Covered+By+Your+Grace" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+    <title>PC | Projects</title>
 
-<script type="text/javascript" src="../javascripts/projects.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Covered+By+Your+Grace|Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="../javascripts/projects.js"></script>
 
 <style type="text/css">
 * {
@@ -36,7 +39,7 @@ body {
 /* Typer Effect. */
 .box h1{
   text-align: center;
-  padding-top: 300px;
+  padding-top: 250px;
   font-family: "Covered By Your Grace";
   font-size: 4rem;
   text-shadow: 0 2px 1px #000;
@@ -46,54 +49,89 @@ body {
 #summary {
   background-color: #000;
 }
-
 .container {
   padding-top: 130px;
-  padding-left: 150px;
+  padding-left: 225px;
+  padding-right: 200px;
 }
 
-.sm {
-  float: center;
-  height: 15em; 
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+.caption-gallery{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.ataxx {
-  float: center;
-  height: 15em; 
+.caption-gallery li{
+  float: left;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
   margin-right: 1%; 
-  margin-bottom: 0.5em;
+  margin-bottom: 1%;    
 }
-.baseball {
-  float: center;
-  height: 15em; 
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+
+.caption-gallery li:hover .caption{
+  opacity: 1;
 }
-.enigma {
-  float: center;
-  height: 15em; 
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+
+.caption-gallery li:hover img{
+  opacity: 1;
+  transform: scale(1.15,1.15);
+  -webkit-transform:scale(1.15,1.15);
+  -moz-transform:scale(1.15,1.15);
+  -ms-transform:scale(1.15,1.15);
+  -o-transform:scale(1.15,1.15);
 }
-.map {
-  float: center;
-  height: 15em; 
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+
+.caption-gallery img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
 }
-.mines {
-  float: center;
-  height: 15em; 
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+
+.caption-gallery .caption{
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
 }
-.gallery {
-  float: center;
-  height: 15em; 
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+
+.caption-gallery img{
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  -ms-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+}
+.caption-gallery .blur{
+  background-color: rgba(0,0,0,0.65);
+  height: 200px;
+  width: 200px;
+  z-index: 5;
+  position: absolute;
+}
+
+.caption-gallery .caption-text h1{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Oswald";
+}
+.caption-gallery .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  top:25px;
+  left:5px;
+  right:5px;
+  font-family: "Poppins";
 }
 
 /* Projects Description Sections. */
@@ -183,24 +221,117 @@ body {
     </a>
   </h1>
   </div>
+  <span>
+    <a href="#summary">
+      <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true" style="color:#FFC7C7;margin-top: 65px"></i>
+      <i class="fa fa-angle-double-down animated fa-stack-1x" style="color:#FFC7C7;margin-top: 73px"></i>
+    </a>
+  </span>
 </section>
 
 <!-- Projects Summary Section. -->
 <section class = "section" id = "summary">
   <div class= "container"> 
-    <p style="font-family: Covered By Your Grace; margin-bottom:20px; margin-left:20%; font-size: 3em;">Project Links under Construction.</p>
-    <img src="../images/sm1.jpg" class="sm">
-    <img src="../images/ataxx.jpg" class="ataxx">
-    <img src="../images/baseball.jpg" class="baseball">
-    <img src="../images/enigma.jpg" class="enigma">
-    <img src="../images/map.jpg" class="map">
-    <img src="../images/mines.png" class="mines">
-    <p style="clear: both;">
+    <!-- <p style="font-family: Covered By Your Grace; margin-bottom:20px; margin-left:20%; font-size: 3em;">Project Links under Construction.</p> -->
+    <div class="container-a4">
+      <ul class="caption-gallery">
+      <li>
+        <img src="../images/icons/vr.jpg"> 
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Kindred Spirits</h1>
+            <p>Meditation Virtual Reality App<br/>-<br/>1st Place AT&T VR/AR Hackathon</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="../images/icons/video.jpg"> 
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>SPOT</h1>
+            <p>Video Content Labeling for Smarter Search</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="../images/icons/map.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Gogo Places</h1>
+            <p>Geolocation-based reward system Web App</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="../images/icons/basketball.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>NBA Player Performance</h1>
+            <p>Assessing & Visualizing the Value of 2015-2016 Season NBA Players</p>
+          </div>
+        </div>
+      </li>             
+      <li>
+        <img src="../images/icons/baseball.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Data Mining in Baseball</h1>
+            <p>Individual and Team Performance Modeling</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="../images/icons/sm1.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Smart Grid</h1>
+            <p>Optimizing Energy Consumption in UC San Diego</p>
+          </div>
+        </div>
+      </li>       
+      <li>
+        <img src="../images/icons/ataxx.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Ataxx</h1>
+            <p>Two-Player game with option of Computer AI opponent</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="../images/icons/enigma.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Enigma</h1>
+            <p>Simulates the Encryption & Decryption Enigma Machine from World War I</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="../images/icons/mines.jpg">
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <h1>Minesweeper</h1>
+            <p>Game coded for Purpose of Computer Science Education</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <p style="clear: both;">
+  </div>
+  <div id="div1" style="text-align: center;padding-bottom: 10px; font-family:Poppins;">
+  <p><br /><br />Made with &#10084; by Prathyusha Charagondla</a></p>
   </div>
 </section>
-
-<!--div id="div1">
-<p><br /><br /><br /><br />Made with &#10084; by Prathyusha Charagondla</a></p>
-</div-->
 </body>
 </html>
