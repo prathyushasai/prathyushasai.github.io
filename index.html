@@ -3,148 +3,196 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Prathyusha Charagondla</title>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
+
+  <!-- Fonts. -->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada|Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
+
+  <!-- Bootstrap CSS. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Font Awesome Icons. -->
+  <link rel="stylesheet" href="third-party/font-awesome/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
 <style type="text/css">
 * {
   margin: 0;
   padding: 0;
   outline: none;
 }
-body { 
-    background-image: url(assets/img/Berkeley2.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center; 
-}
-#wrapper {
-  /*margin: 30px auto 0;
+
+#particles-js {
   width: 100%;
-  text-align: center; 
-  position: relative;*/
-  width:875px;
-  margin:0 auto;
-  list-style:none;
-  position: relative;
+  height: 100%;
+  background-color: #fff;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
-#wrapper h1 {
-  /*font-family: 'Droid Sans', sans-serif; Amaranth, Hammersmith One,Paytone+One,Sigmar+One, Cinzel Decorative, Cinzel*/
-  font-family: IM Fell French Canon SC;
-  font-size: 60px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-  margin: 90px 0 20px;
-  text-align: center;
-  text-shadow: 0 2px 1px #fff;
-  padding-bottom: 35px;
-}
-#div1 {
-  color: rgba(255,255,255,0.70);/*#fdff8e;*/
-  position: fixed;      
-  bottom: 10px; 
-  width: 100%;
-  text-align: center;
-}
-.container {
-  box-shadow: 0 0 10px #ccc;
-  margin-bottom: 40px;
-  padding: 20px;
-  width: 900px;
-}
-#main-nav {
-  float: left;
-  width: 875px;
-  z-index: 1000;
-  box-shadow: 0 0 10px #ccc;
-  text-align: center;
-  background-color: rgba(255,255,255,0.45);
-}
-#main-nav ul {
-  font-family: IM Fell French Canon SC;/*'Droid Sans', sans-serif;*/
+
+.panel {
+  font-family: 'Source Sans Pro';
   font-size: 1.3em;
-  font-weight: bold;
-  list-style: none;
-}
-#main-nav ul li {
-  border-left: 1px outset;
-  border-color: rgba(0, 0, 0, 0.20);
-  float: left;
-}
-#main-nav ul li:first-child {
-  border: none;
-}
-#main-nav ul li a {
-  color: #000;
-  display: block;
-  padding: 20px;
-  position: relative;
-  width: 134.2px;
-  text-decoration: none;
-  text-shadow: 0 1px 1px #fff;
-}
-#main-nav ul li a span.drop-down {
-  background: url(assets/img/down-arrow_green_10x7.png) no-repeat;
-  height: 7px;
   position: absolute;
-  right: 20px;
-  top: 24px;
-  width: 10px;
+  z-index: 10;
+  width: 500px;
+  height: 320px;
+  background: #eee;
+  top: 40%;
+  left: 38%;
+  margin: -110px 0 0 -100px;
+  padding: 40px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 100;
 }
-#main-nav ul li:hover {
-  background: rgba(255,255,255,0.65);
+h1 {
+  font-size: 1.85em;
+  letter-spacing: 0.22em;
+  margin: 0 0 0.525em 0;
+  text-transform:uppercase;
 }
-/* First Level drop-down */
-#main-nav ul li ul {
-  display: none;
+h1, h2, h3, h4, h5, h6 {
+  color: #313f47;
+  line-height: 1.5;
+  margin: 0 0 0.75em 0;
 }
-#main-nav ul li:hover ul {
-  background: url(assets/img/trans_green-70.png);
-  display: block;
-  font-size: .9em;
-  font-weight: normal;
-  padding: 10px;
-  position: absolute;
+
+.line {
+  width: 80%;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  height: 0.5px;
+  background: #a8acaf;/*c8cccf*/
+  opacity: 0.5;
 }
-#main-nav ul li ul li {
-  float: none;
-  display: block;
-  border-left: none;
-  position: relative;
+
+.social {
+  margin-left: 55px;
 }
-#main-nav ul li ul li a {
-  width: 170px;
-  padding: 15px 10px;
-  border-top: dotted 1px #7dad16;
-  color: #fff;
+
+.fa {
+  color: #bec3c6;
+  padding: 7%;
+  display: inline-block;
 }
+
+.fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
+    text-decoration:none;
+}
+
+.fa:hover {
+  opacity:0.7;
+}
+
+.fa-twitter:hover,.fa-twitter:active, .fa-twitter:focus {
+  color: #55ACEE;
+}
+
+.fa-linkedin:hover, .fa-linkedin:active, .fa-linkedin:focus {
+  color: #007bb5;
+}
+
+.fa-github:hover, .fa-github:active, .fa-github:focus {
+  color: #2f2f2f;
+}
+
+.footer {
+  letter-spacing: 0.22em;
+  margin: 0 0 0.525em 0;
+  font-family: 'Source Sans Pro'; 
+}
+
 </style>
 
 </head>
 
 <body>
-<!--div id="div1"-->
-<div id="wrapper">
-  <h1>Prathyusha Charagondla</h1>
-  <!--div class="container"-->
-    <div id="main-nav">
-      <ul>
-        <li><a href=index.html>Home</a></li>
-        <li><a href=pages/about.html>About</a></li>
-        <li><a href="pages/resume.html">Resume</a></li>
-        <li><a href="pages/projects.html">Projects</a></li>
-        <li><a href=pages/contact.html>Contact Me</a></li>
-      </ul>
-    </div>
-  <!--</div>
-  /.container-->
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();></a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="pages/about.html" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="pages/resume.html" onclick=$("#menu-close").click();>Resume</a>
+            </li>
+            <li>
+                <a href="pages/projects.html" onclick=$("#menu-close").click();>Projects</a>
+            </li>
+            <li>
+                <a href="pages/contact.html" onclick=$("#menu-close").click();>Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<div class="panel">
+  <h1 align="center">Prathyusha Charagondla</h1>
+  <div class="line"></div>
+  <div class="social">
+    <a href="https://github.com/prathyushasai" class="fa fa-github fa-3x" target="_blank"></a>
+    <a href="https://twitter.com/pcharagondla" class="fa fa-twitter fa-3x" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/pcharagondla/" class="fa fa-linkedin fa-3x" target="_blank"></a>
+  </div>
 </div>
-<!--/#wrapper-->
-<div id="div1">
-<p><br /><br /><br /><br />Made with &#10084; by Prathyusha Charagondla</a></p>
-</div>
-<!--/#div1-->
+
+<!-- particle.js scripts -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- JQuery Scripts. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap Scripts -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
+// Scrolls to the selected menu item on the page
+$(function() {
+    $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
+</script>
+
+<p class="text-muted footer" align="center">Copyright &copy; 2017 Prathyusha Charagondla</a></p>
+<!--Made with &#10084; by Prathyusha Charagondla-->
 </body>
 </html>
