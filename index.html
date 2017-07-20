@@ -29,8 +29,11 @@
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #fff;
-  background-image: url('');
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ffd1fb, #c6fbff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffd1fb, #c6fbff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffd1fb, #c6fbff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffd1fb, #c6fbff); /* Standard syntax (must be last) */
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -71,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   margin-bottom: 15px;
   height: 0.5px;
-  background: #bec3c6;/*c8cccf, a8acaf*/
+  background: #bec3c6;/*bec3c6;/*c8cccf, a8acaf*/
   opacity: 0.5;
 }
 
