@@ -1,2 +1,0 @@
-# Prathyusha Charagondla
-Personal Website.
