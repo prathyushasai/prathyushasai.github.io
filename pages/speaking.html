@@ -1,0 +1,350 @@
+<!DOCTYPE html">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>PC | Projects</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Covered+By+Your+Grace|Poppins|Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+    <link href="../third-party/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="../js/projects.js"></script>
+
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+body { 
+
+}
+
+/* Create Sections. */
+.section {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+/* Introduction. */
+#intro {
+  background-image: url(../assets/img/projects5.gif);
+  background-position: center; 
+}
+/* Typer Effect. */
+.box h1{
+  text-align: center;
+  padding-top: 250px;
+  font-family: "Covered By Your Grace";
+  font-size: 4rem;
+  text-shadow: 0 2px 1px #000;
+}
+
+/* Summary of Projects Section. */
+#summary {
+  background-color: #000;
+}
+.container {
+  padding-top: 130px;
+  padding-left: 225px;
+  padding-right: 200px;
+}
+
+/* Photo Gallery. */
+.caption-gallery{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.caption-gallery li{
+  float: left;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 1%; 
+  margin-bottom: 1%;    
+}
+
+.caption-gallery li:hover .caption{
+  opacity: 1;
+}
+
+.caption-gallery li:hover img{
+  opacity: 1;
+  transform: scale(1.15,1.15);
+  -webkit-transform:scale(1.15,1.15);
+  -moz-transform:scale(1.15,1.15);
+  -ms-transform:scale(1.15,1.15);
+  -o-transform:scale(1.15,1.15);
+}
+
+.caption-gallery img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
+}
+
+.caption-gallery .caption{
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+}
+
+.caption-gallery img{
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  -ms-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+}
+.caption-gallery .blur{
+  background-color: rgba(0,0,0,0.65);
+  height: 200px;
+  width: 200px;
+  z-index: 5;
+  position: absolute;
+}
+
+/* Photo Gallery - Main. */
+.caption-gallery .caption-text h1{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Oswald";
+}
+
+/* Photo Gallery - Detail. */
+.caption-gallery .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  top:25px;
+  left:5px;
+  right:5px;
+  font-family: "Poppins";
+}
+
+/* Lightbox. */
+#desc {
+
+}
+
+/* Navigation Bar. */
+#wrapper {
+  width:100%;
+  margin:0 auto;
+  list-style:none;
+  position: fixed;
+  z-index: 9999;
+}
+#main-nav {
+  /*margin-top: 40px;*/
+  /*position: relative;*/
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  background-color: rgba(255,255,255, 0.45);
+  float: right;
+  font-family: IM Fell French Canon SC;
+}
+#name {
+  float: left;
+  padding-top: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  list-style: none;
+  padding-left: 3px;
+  color: rgba(255,255,255, 0.75);
+  text-shadow: 0 1px 1px #000;
+}
+#main-nav ul {
+  font-size: 1.3em;
+  font-weight: bold;
+  list-style: none;
+}
+#main-nav ul li {
+  border-left: 1px outset;
+  border-color: rgba(255,255,255, 0.20);
+  float: left;
+}
+#main-nav ul li:first-child {
+  border: none;
+}
+#main-nav ul li a {
+  color: #000;
+  display: block;
+  padding: 20px;
+  position: relative;
+  width: 125px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #000;
+  color: rgba(255,255,255, 0.75);
+}
+#main-nav ul li:hover {
+  background: rgba(0,0,0,0.75);
+}
+
+/* Footer. */
+.footer {
+  letter-spacing: 0.22em;
+  padding: 0 0 0.525em 0;
+  font-family: 'Source Sans Pro'; 
+}
+</style>
+
+</head>
+
+<body>
+<!-- Navigation Bar. -->
+<div id="wrapper">
+    <div id="main-nav">
+    <div id ="name">&nbsp;Prathyusha Charagondla&nbsp;</div>
+      <ul>
+        <li><a href=../index.html>Home</a></li>
+        <li><a href=about.html>About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href=contact.html>Contact Me</a></li>
+      </ul>
+    </div>
+</div>
+
+<!-- Introduction Section. -->
+<section class = "section" id = "intro">
+  <div class= "box"> 
+  <h1>
+    <a href="" class="typewrite" data-period="2000" data-type='["Programming.", "Machine Learning.", "Design.", "Data Science.", "Projects."]'>
+      <span class="wrap"></span>
+    </a>
+  </h1>
+  </div>
+  <span>
+    <a href="#summary">
+      <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true" style="color:#FFF;margin-top: 65px"></i>
+      <i class="fa fa-angle-double-down animated fa-stack-1x" style="color:#FFF;margin-top: 73px"></i>
+    </a>
+  </span>
+</section>
+
+<!-- Projects Summary Section. -->
+<section class = "section" id = "summary">
+  <div class= "container"> 
+    <ul class="caption-gallery">
+    <li>
+      <img src="../assets/img/icons/vr.jpg">
+      <a href="https://github.com/Starshine3/Kindred_Spirits"> 
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Kindred Spirits</h1>
+          <p>Meditation Virtual Reality App<br/>-<br/>1st Place AT&T VR/AR Hackathon</p>
+        </div>
+      </div></a>
+    </li>
+    <li>
+      <img src="../assets/img/icons/video.jpg"> 
+      <a href="https://github.com/prathyushasai/video-content-labeling"> 
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>SPOT</h1>
+          <p>Video Content Labeling for Smarter Search</p>
+        </div>
+      </div></a>
+    </li>
+    <li>
+      <img src="../assets/img/icons/map.jpg">
+      <a href="https://github.com/prathyushasai/GoGo-Places"> 
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Gogo Places</h1>
+          <p>Geolocation-based reward system Web App</p>
+        </div>
+      </div></a>
+    </li>
+    <li>
+      <img src="../assets/img/icons/basketball.jpg">
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>NBA Player Performance</h1>
+          <p>Assessing & Visualizing the Value of 2015-2016 Season NBA Players</p>
+        </div>
+      </div>
+    </li>             
+    <li>
+      <img src="../assets/img/icons/baseball.jpg">
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Data Mining in Baseball</h1>
+          <p>Individual and Team Performance Modeling</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <img src="../assets/img/icons/sm1.jpg">
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Smart Grid</h1>
+          <p>Optimizing Energy Consumption in UC San Diego</p>
+        </div>
+      </div>
+    </li>       
+    <li>
+      <img src="../assets/img/icons/ataxx.jpg">
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Ataxx</h1>
+          <p>Two-Player game with option of Computer AI opponent</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <img src="../assets/img/icons/enigma.jpg">
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Enigma</h1>
+          <p>Simulates the Encryption & Decryption Enigma Machine from World War I</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <img src="../assets/img/icons/mines.jpg">
+      <a href="https://github.com/prathyushasai/minesweeper"> 
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+          <h1>Minesweeper</h1>
+          <p>Game coded for Purpose of Computer Science Education</p>
+        </div>
+      </div></a>
+    </li>
+  </ul>
+  <p style="clear: both;">
+  </div>
+  <p class="footer" align="center"><br /><br />Copyright &copy; 2017 Prathyusha Charagondla</a></p>
+<!--   <div id="div1" style="text-align: center;padding-bottom: 10px; font-family:Poppins;">
+  <p><br /><br />Made with &#10084; by Prathyusha Charagondla</a></p>
+  </div> -->
+</section>
+</body>
+</html>
