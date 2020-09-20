@@ -1,350 +1,383 @@
 <!DOCTYPE html">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Prathyusha Charagondla</title>
 
-    <title>PC | Projects</title>
+  <!-- Fonts. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Covered+By+Your+Grace|Poppins|Source+Sans+Pro:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
-    <link href="../third-party/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Bootstrap CSS. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <script type="text/javascript" src="../js/projects.js"></script>
+  <!-- Custom CSS -->
+  <link href="../css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Font Awesome Animations -->
+  <link rel="stylesheet" href="../third-party/font-awesome/font-awesome-animation.min.css">
 
 <style type="text/css">
 * {
   margin: 0;
   padding: 0;
   outline: none;
-  color: rgb(255,255,255);
-  text-decoration: none;
-}
-body { 
-
+  box-sizing: border-box;
+  font-family: 'VT323', sans-serif;
 }
 
-/* Create Sections. */
-.section {
-  width: 100%;
-  min-height: 100%;
-  position: relative;
+body {
+  background: #F7F6EB;
+  padding-top: 6%;
+  /*padding-bottom: 5%;*/
 }
 
-/* Introduction. */
-#intro {
-  background-image: url(../assets/img/projects5.gif);
-  background-position: center; 
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* Typer Effect. */
-.box h1{
+
+/* Create two columns that float next to each other */
+.column1 {
+  padding-top: 10%;
+  float: left;
+  width: 35%;
+  height:80%;
+  /*padding: 10px;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.column2 {
+  float: left;
+  width: 65%;
+  height: 80%;
+  padding: 10px;
+  font-family: 'VT323', serif;
+  margin: 0 auto;
+  display: grid;
+  flex-direction: column;
+  grid-template-rows: 1fr 4fr;
+/*  justify-content: center;
+  align-items: center;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 400%;
+}
+
+/* For Low Highlight Effect. */
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E2DAC5 50%);
+}
+
+/* grid content START */
+.newmembers {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+  grid-auto-rows: 450px;
+  grid-auto-flow: dense;
+  justify-content: center;
+  padding: 10px 10px 10px;
+}
+
+.member {
+  background: #E2DAC5;
+  border: 1px solid grey;
   text-align: center;
-  padding-top: 250px;
-  font-family: "Covered By Your Grace";
-  font-size: 4rem;
-  text-shadow: 0 2px 1px #000;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px grey;
 }
 
-/* Summary of Projects Section. */
-#summary {
-  background-color: #000;
-}
-.container {
-  padding-top: 130px;
-  padding-left: 225px;
-  padding-right: 200px;
-}
-
-/* Photo Gallery. */
-.caption-gallery{
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.caption-gallery li{
-  float: left;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
-  margin-right: 1%; 
-  margin-bottom: 1%;    
-}
-
-.caption-gallery li:hover .caption{
-  opacity: 1;
-}
-
-.caption-gallery li:hover img{
-  opacity: 1;
-  transform: scale(1.15,1.15);
-  -webkit-transform:scale(1.15,1.15);
-  -moz-transform:scale(1.15,1.15);
-  -ms-transform:scale(1.15,1.15);
-  -o-transform:scale(1.15,1.15);
-}
-
-.caption-gallery img{
-  margin: 0px;
-  padding: 0px;
-  float: left;
-  z-index: 4;
-}
-
-.caption-gallery .caption{
-  cursor: pointer;
-  position: absolute;
-  opacity: 0;
-  -webkit-transition:all 0.45s ease-in-out;
-  -moz-transition:all 0.45s ease-in-out;
-  -o-transition:all 0.45s ease-in-out;
-  -ms-transition:all 0.45s ease-in-out;
-  transition:all 0.45s ease-in-out;
-}
-
-.caption-gallery img{
-  -webkit-transition:all 0.25s ease-in-out;
-  -moz-transition:all 0.25s ease-in-out;
-  -o-transition:all 0.25s ease-in-out;
-  -ms-transition:all 0.25s ease-in-out;
-  transition:all 0.25s ease-in-out;
-}
-.caption-gallery .blur{
-  background-color: rgba(0,0,0,0.65);
-  height: 200px;
-  width: 200px;
-  z-index: 5;
-  position: absolute;
-}
-
-/* Photo Gallery - Main. */
-.caption-gallery .caption-text h1{
+.type {
+  color: black;
+  font-weight: 900;
   text-transform: uppercase;
-  font-size: 24px;
-  font-family: "Oswald";
-}
-
-/* Photo Gallery - Detail. */
-.caption-gallery .caption-text{
-  z-index: 10;
-  color: #fff;
-  position: absolute;
-  width: 190px;
-  height: 190px;
+  margin: 5px 5px 0px;
   text-align: center;
-  top:25px;
-  left:5px;
-  right:5px;
-  font-family: "Poppins";
 }
 
-/* Lightbox. */
-#desc {
-
+.year {
+  color: black;
+  font-weight: bold;
+  font-size: x-small;
+  margin: 0px 0px 0px;
+  text-align: center;
 }
 
-/* Navigation Bar. */
-#wrapper {
-  width:100%;
-  margin:0 auto;
-  list-style:none;
-  position: fixed;
-  z-index: 9999;
-}
-#main-nav {
-  /*margin-top: 40px;*/
-  /*position: relative;*/
+.box {
   width: 100%;
-  z-index: 1000;
-  text-align: center;
-  background-color: rgba(255,255,255, 0.45);
-  float: right;
-  font-family: IM Fell French Canon SC;
+  height: 200px;
+  min-height: 160px;
+  max-height: 200px;
+  min-width: 160px;
+  max-width: 100%; 
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center top;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  /*border: 5px solid #fff;*/
+  /*border-radius: 4px;*/
+  /*box-shadow: 5px 5px 5px grey;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#name {
-  float: left;
-  padding-top: 10px;
-  font-size: 2em;
-  font-weight: bold;
-  list-style: none;
-  padding-left: 3px;
-  color: rgba(255,255,255, 0.75);
-  text-shadow: 0 1px 1px #000;
+
+.thumb {
+  max-width:100%;
+  max-height:100%;
 }
-#main-nav ul {
-  font-size: 1.3em;
-  font-weight: bold;
-  list-style: none;
-}
-#main-nav ul li {
-  border-left: 1px outset;
-  border-color: rgba(255,255,255, 0.20);
-  float: left;
-}
-#main-nav ul li:first-child {
-  border: none;
-}
-#main-nav ul li a {
-  color: #000;
-  display: block;
-  padding: 20px;
+
+.thumb:hover {
   position: relative;
-  width: 125px;
-  text-decoration: none;
-  text-shadow: 0 1px 1px #000;
-  color: rgba(255,255,255, 0.75);
+  top: 5px;
+  left: 5px;
 }
-#main-nav ul li:hover {
-  background: rgba(0,0,0,0.75);
+
+.eventname {
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+  text-transform: uppercase;
+  margin: 20px 0px 20px;
+}
+
+.talk {
+  color: #333333; 
+  font-size: medium;
+  font-style: italic;
+  margin: 0px 0px 15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.dates {
+  color: #333333;
+  margin: 0px 0px 5px;
+  font-size: large; 
+}
+
+.description {
+  color: #333333;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+  font-size: x-small;
+}
+
+.info {
+  margin: 10px;
+}
+/* grid content END */
+
+div.btn-container-rt {
+  display: flex;
+  justify-content: right;
+  align-items: right; 
+}
+
+div.btn-container-lt {
+  display: flex;
+  justify-content: left;
+  align-items: left ; 
+}
+
+.btn-clr {
+  /*color: #E2DAC5;*/
+  background-color: #E2DAC5;
+  border-color: #E2DAC5;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 /* Footer. */
 .footer {
   letter-spacing: 0.22em;
-  padding: 0 0 0.525em 0;
-  font-family: 'Source Sans Pro'; 
+  margin: 0 0 0.525em 0;
+  font-family: 'VT323', sans-serif;
+  background-color: #F7F6EB;
+  padding-top: 2%;
 }
 </style>
 
 </head>
 
 <body>
-<!-- Navigation Bar. -->
-<div id="wrapper">
-    <div id="main-nav">
-    <div id ="name">&nbsp;Prathyusha Charagondla&nbsp;</div>
-      <ul>
-        <li><a href=../index.html>Home</a></li>
-        <li><a href=about.html>About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href=contact.html>Contact Me</a></li>
-      </ul>
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F7F6EB;font-family: 'VT323', serif;font-size:x-large;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="work.html">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="speaking.html">Speaking<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item btn-talk">     
+        <a class="nav-link dropdown-toggle disabled" href="pages/likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Interests
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>  
+
+<div class="container">
+  <div style="width:90%;height:90%;border:6px solid #E2DAC5; padding-bottom: 1%">
+    <div style="text-align: center;"><h1><span class="highlight">Talks & Workshops</span></h1></div>
+      <div>
+
+    <div class="newmembers">
+
+      <!-- Template for our posts -->
+      <script type="text/template" id="postTemplate">
+        <div class="member">
+          <a class="memurl" href="" target="_blank">
+            <div class="box">
+            <img class="thumb" alt="Conference: " title="Conference: " src="" >
+          </div>
+          </a>
+          <!-- Replaced p  with div, can't nest p tags -->
+          <div class="info">
+            <p class="eventname"></p>
+            <p class="talk"></p>
+            <p class="dates"></p>
+            <p class="description"></p>
+          </div>
+
+        </div>
+      </script>
+
     </div>
+    </div>
+    <div class="btn-container-rt">
+      <div class="btn btn-clr btn-lg rounded-0 disabled" type="button" style="font-family: VT323;font-size:x-large;">Interests <i class="fas fa-arrow-right fa-xs faa-horizontal animated"></i> </div>
+    </div>
+  </div>
 </div>
 
-<!-- Introduction Section. -->
-<section class = "section" id = "intro">
-  <div class= "box"> 
-  <h1>
-    <a href="" class="typewrite" data-period="2000" data-type='["Programming.", "Machine Learning.", "Design.", "Data Science.", "Projects."]'>
-      <span class="wrap"></span>
-    </a>
-  </h1>
-  </div>
-  <span>
-    <a href="#summary">
-      <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true" style="color:#FFF;margin-top: 65px"></i>
-      <i class="fa fa-angle-double-down animated fa-stack-1x" style="color:#FFF;margin-top: 73px"></i>
-    </a>
-  </span>
-</section>
 
-<!-- Projects Summary Section. -->
-<section class = "section" id = "summary">
-  <div class= "container"> 
-    <ul class="caption-gallery">
-    <li>
-      <img src="../assets/img/icons/vr.jpg">
-      <a href="https://github.com/Starshine3/Kindred_Spirits"> 
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Kindred Spirits</h1>
-          <p>Meditation Virtual Reality App<br/>-<br/>1st Place AT&T VR/AR Hackathon</p>
-        </div>
-      </div></a>
-    </li>
-    <li>
-      <img src="../assets/img/icons/video.jpg"> 
-      <a href="https://github.com/prathyushasai/video-content-labeling"> 
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>SPOT</h1>
-          <p>Video Content Labeling for Smarter Search</p>
-        </div>
-      </div></a>
-    </li>
-    <li>
-      <img src="../assets/img/icons/map.jpg">
-      <a href="https://github.com/prathyushasai/GoGo-Places"> 
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Gogo Places</h1>
-          <p>Geolocation-based reward system Web App</p>
-        </div>
-      </div></a>
-    </li>
-    <li>
-      <img src="../assets/img/icons/basketball.jpg">
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>NBA Player Performance</h1>
-          <p>Assessing & Visualizing the Value of 2015-2016 Season NBA Players</p>
-        </div>
-      </div>
-    </li>             
-    <li>
-      <img src="../assets/img/icons/baseball.jpg">
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Data Mining in Baseball</h1>
-          <p>Individual and Team Performance Modeling</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <img src="../assets/img/icons/sm1.jpg">
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Smart Grid</h1>
-          <p>Optimizing Energy Consumption in UC San Diego</p>
-        </div>
-      </div>
-    </li>       
-    <li>
-      <img src="../assets/img/icons/ataxx.jpg">
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Ataxx</h1>
-          <p>Two-Player game with option of Computer AI opponent</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <img src="../assets/img/icons/enigma.jpg">
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Enigma</h1>
-          <p>Simulates the Encryption & Decryption Enigma Machine from World War I</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <img src="../assets/img/icons/mines.jpg">
-      <a href="https://github.com/prathyushasai/minesweeper"> 
-      <div class="caption">
-        <div class="blur"></div>
-        <div class="caption-text">
-          <h1>Minesweeper</h1>
-          <p>Game coded for Purpose of Computer Science Education</p>
-        </div>
-      </div></a>
-    </li>
-  </ul>
-  <p style="clear: both;">
-  </div>
-  <p class="footer" align="center"><br /><br />Copyright &copy; 2017 Prathyusha Charagondla</a></p>
-<!--   <div id="div1" style="text-align: center;padding-bottom: 10px; font-family:Poppins;">
-  <p><br /><br />Made with &#10084; by Prathyusha Charagondla</a></p>
-  </div> -->
-</section>
+<script src="https://kit.fontawesome.com/341a7c9dcc.js" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Scripts. -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+<!-- Custom Theme JavaScript -->
+<script>
+
+function get_json_data() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var data = JSON.parse(this.responseText);
+      append_json(data);
+    }
+  };
+  xmlhttp.open("GET", "events.json", true);
+  xmlhttp.send();  
+}
+
+function append_json(data) {
+  //Set Up the template
+  var s = $("#postTemplate")[0].innerHTML.trim();
+  var holder = document.createElement('div');
+  holder.innerHTML = s;
+  var template = holder.childNodes;
+
+  var member = document.getElementById('newmembers');
+  data.forEach(function(object) {
+
+    //Clone Template
+    var newItem = $(template).clone();
+
+    //Populate it
+    $(newItem).find(".type").html(object.type);
+    $(newItem).find(".year").html($(newItem).find(".year").html() + " " + object.year);
+    $(newItem).find(".memurl").attr("href", object.memurl);
+    var img = $(newItem).find(".thumb")
+    $(img).attr("src", object.memimgsrc).attr("alt", $(img).attr("alt") + object.eventname)
+      .attr("title", $(img).attr("title") + object.eventname);
+    $(newItem).find(".box").attr("style", "background-color:" + object.color);
+    $(newItem).find(".eventname").html(object.eventname);
+    $(newItem).find(".talk").html(object.talk);
+    $(newItem).find(".dates").html(object.dates);
+    // $(newItem).find(".description").html(object.description);
+    //Append it
+
+    $(".newmembers").append(newItem);
+
+  });
+}
+
+$("document").ready(function() {
+  get_json_data()
+});
+
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
+// Scrolls to the selected menu item on the page
+$(function() {
+    $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
+</script>
+
+<p class="text-muted footer" align="center">Copyright &copy; 2020 Prathyusha Charagondla</a></p>
+<!--Made with &#10084; by Prathyusha Charagondla-->
 </body>
 </html>
