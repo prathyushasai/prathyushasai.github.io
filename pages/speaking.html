@@ -192,14 +192,7 @@ h1 {
 
 div.btn-container-rt {
   display: flex;
-  justify-content: right;
-  align-items: right; 
-}
-
-div.btn-container-lt {
-  display: flex;
-  justify-content: left;
-  align-items: left ; 
+  float: right;
 }
 
 .btn-clr {
@@ -232,13 +225,13 @@ div.btn-container-lt {
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="../index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="work.html">Work</a>
+        <a class="nav-link" href="work.html">Work</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="speaking.html">Speaking<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item btn-talk">     
@@ -347,7 +340,7 @@ function append_json(data) {
 }
 
 $("document").ready(function() {
-  get_json_data()
+  get_json_data();
 });
 
 // Closes the sidebar menu
@@ -377,7 +370,19 @@ $(function() {
 });
 </script>
 
-<p class="text-muted footer" align="center">Copyright &copy; 2020 Prathyusha Charagondla</a></p>
-<!--Made with &#10084; by Prathyusha Charagondla-->
+<p class="text-muted footer" align="center">
+  <a href="https://www.linkedin.com/in/pcharagondla/"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:#0072b1"></i>
+    <i class="fab fa-linkedin-in fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a>                      
+  <a href="https://twitter.com/pcharagondla"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:#1DA1F2"></i>
+    <i class="fab fa-twitter fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a>
+  <a href="https://medium.com/@pcharagondla"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:black"></i>
+    <i class="fab fa-medium-m fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a></br>
+Copyright &copy; 2020 Prathyusha Charagondla</a></p>
 </body>
 </html>
