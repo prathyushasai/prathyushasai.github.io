@@ -17,12 +17,12 @@
     "description": "Preventing Unfairness in out Algorithms"
   },
   {
-    "color": "#E2DAC5",
-    "memurl": "https://example.com/applegate.html#5b3a51",
-    "memimgsrc": "",
-    "eventname": "TBD",
-    "talk": "",
-    "dates": "",
-    "description": ""
+    "color": "#1b1e23",
+    "memurl": "https://wearedevelopers.com/live/live-week",
+    "memimgsrc": "../assets/img/wad_live.jpg",
+    "eventname": "WeAreDevelopers Live Week",
+    "talk": "Algorithmic bias: preventing unfairness in your algorithms",
+    "dates": "October 5-9, 2020",
+    "description": "Preventing Unfairness in out Algorithms"
   }
 ]
