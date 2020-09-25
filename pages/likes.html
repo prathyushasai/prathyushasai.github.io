@@ -207,7 +207,6 @@ table .menu {
 .mtop, .mbottom {
   border-bottom: 1px solid grey;
   border-top: none;
-  text-align: center;
 }
 /* grid content END */
 
@@ -287,11 +286,10 @@ div.btn-container-rt {
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content scroll">
                 <div class="modal-header mtop" >
-                  <h4 class="col-12 modal-title text-center">
-                    <h4 class="modal-title-book" id="exampleModalLongTitle"></h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button></h4>
+                    <h4 class="col-12 modal-title" id="exampleModalLongTitle"></h4>
+<!--                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button> -->
                 </div>
                 <div class="modal-body">
                   <table class="menu">
@@ -310,7 +308,7 @@ div.btn-container-rt {
                   </table>
                 </div>
                 <div class="modal-footer mbottom">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -384,7 +382,7 @@ function append_json(data) {
     // .attr("alt", $(img).attr("alt") + object.eventname)
     // .attr("title", $(img).attr("title") + object.eventname);
     // $(newItem).find(".box").attr("style", "background-color:" + object.color);
-    $(newItem).find(".modal-title-book").html(object.name);
+    $(newItem).find(".modal-title").html(object.name);
     $(newItem).find(".author").html(object.author);
     // $(newItem).find(".categories").html(object.categories);
     // $(newItem).find(".modal-body").html(object.description);
