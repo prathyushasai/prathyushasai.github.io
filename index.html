@@ -5,169 +5,278 @@
 <title>Prathyusha Charagondla</title>
 
   <!-- Fonts. -->
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Zeyada' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
 
   <!-- Bootstrap CSS. -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-  <!-- Font Awesome Icons. -->
-  <link rel="stylesheet" href="third-party/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Font Awesome Animations -->
+  <link rel="stylesheet" href="third-party/font-awesome/font-awesome-animation.min.css">
 
 <style type="text/css">
 * {
   margin: 0;
   padding: 0;
   outline: none;
-}
-
-/* Particles Wrapper. */
-#particles-js {
-  width: 100%;
-  height: 100%;
-  background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#ffd1fb, #c6fbff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#ffd1fb, #c6fbff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ffd1fb, #c6fbff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ffd1fb, #c6fbff); /* Standard syntax (must be last) */
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-/* Panel. */
-.panel {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.3em;
-  position: absolute;
-  z-index: 10;
-  width: 500px;
-  height: 320px;
-  background: #eee;
-  top: 40%;
-  left: 38%;
-  margin: -110px 0 0 -100px;
-  padding: 40px;
-  border-radius: 4px;
   box-sizing: border-box;
-  z-index: 100;
-}
-h1 {
-  font-size: 1.85em;
-  letter-spacing: 0.22em;
-  margin: 0 0 0.525em 0;
-  text-transform:uppercase;
-}
-h1, h2, h3, h4, h5, h6 {
-  color: #313f47;
-  line-height: 1.5;
-  margin: 0 0 0.75em 0;
-}
-.line {
-  width: 80%;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 15px;
-  height: 0.5px;
-  background: #bec3c6;/*bec3c6;/*c8cccf, a8acaf*/
-  opacity: 0.5;
 }
 
-/* Social Media Panels. */
-.social {
-  margin-left: 55px;
+body {
+  background: #F7F6EB;
+  padding-top: 6%;
+  /*padding-bottom: 5%;*/
 }
 
-.fa {
-  color: #bec3c6;
-  padding: 7%;
-  display: inline-block;
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
-    text-decoration:none;
+/* Create two columns that float next to each other */
+.column1 {
+  padding-top: 10%;
+  float: left;
+  width: 35%;
+  height:80%;
+  /*padding: 10px;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
 }
 
-.fa:hover {
-  opacity:0.7;
+.column2 {
+  float: left;
+  width: 65%;
+  height: 80%;
+  padding: 10px;
+  font-family: 'VT323', serif;
+  margin: 0 auto;
+  display: grid;
+  flex-direction: column;
+  grid-template-rows: 1fr 4fr;
 }
 
-.fa-twitter:hover,.fa-twitter:active, .fa-twitter:focus {
-  color: #55ACEE;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.fa-linkedin:hover, .fa-linkedin:active, .fa-linkedin:focus {
-  color: #007bb5;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
-.fa-github:hover, .fa-github:active, .fa-github:focus {
-  color: #2f2f2f;
+.frame { 
+  width:80%;
+  position: relative; 
+  background-color: #E2DAC5;
+  margin: auto;
+}
+
+.frame:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.frame img {
+  width: 100%;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.column2 h1 {
+  font-size: 400%;
+}
+
+/* For Low Highlight Effect. */
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E2DAC5 50%);
+}
+
+.info { 
+  /*background-color: #E2DAC5;*/
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  /*max-height: 45  % ;*/
+  /*height: 20%;*/
+}
+
+table .menu {
+  /*table-layout: fixed;*/
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.menu td {
+  padding-bottom:3.5%;
+}
+
+.wrapper {
+  display:table-cell;
+  vertical-align: middle;
+}
+
+.name {
+  vertical-align: top;
+  font-size: xx-large;
+}
+
+.desc {
+  font-size: x-large;
+}
+
+div.btn-container {
+  display: flex;
+  justify-content: right;
+  align-items: right; 
+}
+
+.btn-clr {
+  /*color: #E2DAC5;*/
+  background-color: #E2DAC5;
+  border-color: #E2DAC5;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 /* Footer. */
 .footer {
   letter-spacing: 0.22em;
   margin: 0 0 0.525em 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'VT323', sans-serif;
+  background-color: #F7F6EB;
+  padding-top: 2%;
 }
 </style>
 
 </head>
 
 <body>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();></a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="pages/about.html" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="pages/resume.html" onclick=$("#menu-close").click();>Resume</a>
-            </li>
-            <li>
-                <a href="pages/projects.html" onclick=$("#menu-close").click();>Projects</a>
-            </li>
-            <li>
-                <a href="pages/contact.html" onclick=$("#menu-close").click();>Contact Me</a>
-            </li>
-        </ul>
-    </nav>
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F7F6EB;font-family: 'VT323', serif;font-size:x-large;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<div class="panel">
-  <h1 align="center">Prathyusha<br/>Charagondla</h1>
-  <div class="line"></div>
-  <div class="social">
-    <a href="https://github.com/prathyushasai" class="fa fa-github fa-3x" target="_blank"></a>
-    <a href="https://twitter.com/pcharagondla" class="fa fa-twitter fa-3x" target="_blank"></a>
-    <a href="https://www.linkedin.com/in/pcharagondla/" class="fa fa-linkedin fa-3x" target="_blank"></a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/work.html">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/speaking.html">Speaking</a>
+      </li>
+      <li class="nav-item btn-author">     
+        <a class="nav-link dropdown-toggle" href="pages/likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Interests
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="pages/likes.html#book">Book Recommendations</a>
+          <a class="dropdown-item" href="pages/likes.html#map">Places Visited</a>
+          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>  
+
+<div class="container">
+  <div style="width:90%;height:90%;border:6px solid #E2DAC5; padding-bottom: 1%">
+      <div>
+        <div class="column1"> 
+          <div class="frame">
+            <img src="assets/img/pixel_portrait.png" alt="pixelated portrait">
+          </div>
+        </div>
+        <div class="column2">
+          <div style="text-align: center;"><h1><span class="highlight">Prathyusha Charagondla</span></h1></div>
+          <div class="info">
+            <div class="wrapper">
+              <table class="menu">
+                <tr>
+                  <td class="name">Role:</td>
+                  <td class="desc">Site Reliability Engineer, Adobe</td>
+                </tr>
+                <tr>
+                  <td class="name">Education:&nbsp;&nbsp;&nbsp;</td>
+                  <td class="desc">Masters of Information & Data Science, UC Berkeley (2022) </br>
+                  B.A. Data Science & B.A. Cognitive Science, UC Berkeley (2019)</td>
+                </tr>
+                <tr>
+                  <td class="name">Skills: </td>
+                  <td class="desc">Software Engineering, Data Science, Data Visualization, Data Ethics</td>
+                </tr>
+                <tr>
+                  <td class="name">Passion: </td>
+                  <td class="desc">Minority Empowerment in Tech, Education</td>
+                </tr>
+<!--                 <tr>
+                  <td class="name">Guilds: </td>
+                  <td class="desc">Spectra</td>
+                </tr> -->
+                <tr>
+                  <td class="name">Likes: </td>
+                  <td class="desc">Teaching Yoga, Traveling, Trying New Cuisines</td>
+                </tr>
+                <tr>
+                  <td class="name">Contact Me:</td>
+                  <td class="desc">
+                      <a href="https://www.linkedin.com/in/pcharagondla/"><span class="fa-stack">
+                        <i class="fa fa-square-full fa-stack-2x" style="color:#0072b1"></i>
+                        <i class="fab fa-linkedin-in fa-stack-1x" style="color:#F7F6EB"></i>
+                      </span></a>                      
+                      <a href="https://twitter.com/pcharagondla"><span class="fa-stack">
+                        <i class="fa fa-square-full fa-stack-2x" style="color:#1DA1F2"></i>
+                        <i class="fab fa-twitter fa-stack-1x" style="color:#F7F6EB"></i>
+                      </span></a>
+                      <a href="https://medium.com/@pcharagondla"><span class="fa-stack">
+                        <i class="fa fa-square-full fa-stack-2x" style="color:black"></i>
+                        <i class="fab fa-medium-m fa-stack-1x" style="color:#F7F6EB"></i>
+                      </span></a>
+                      <a href="https://github.com/prathyushasai"><span class="fa-stack">
+                        <i class="fa fa-square-full fa-stack-2x" style="color:#333"></i>
+                        <i class="fab fa-github fa-stack-1x" style="color:#F7F6EB"></i>
+                      </span></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+    <a href="pages/work.html">
+    <div class="btn-container">
+      <div class="btn btn-clr btn-lg rounded-0" type="button" style="font-family: VT323;font-size:x-large;">Work<i class="fas fa-arrow-right fa-xs faa-horizontal animated"></i> </div>
+    </div></a>
   </div>
 </div>
 
-<!-- particle.js scripts -->
-<script src="js/particles.min.js"></script>
-<script src="js/app.js"></script>
+<script src="https://kit.fontawesome.com/341a7c9dcc.js" crossorigin="anonymous"></script>
 
-<!-- JQuery Scripts. -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Bootstrap Scripts -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Bootstrap Scripts. -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 <!-- Custom Theme JavaScript -->
 <script>
@@ -198,7 +307,8 @@ $(function() {
 });
 </script>
 
-<p class="text-muted footer" align="center">Copyright &copy; 2017 Prathyusha Charagondla</a></p>
+<p class="text-muted footer" align="center">Copyright &copy; 2020 Prathyusha Charagondla</br>
+Picture: <a class="text-muted" href="https://www.instagram.com/viiolaceus/?hl=en">@viiolaceus</a></a></p>
 <!--Made with &#10084; by Prathyusha Charagondla-->
 </body>
 </html>

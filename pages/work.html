@@ -1,0 +1,234 @@
+<!DOCTYPE html">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Prathyusha Charagondla</title>
+
+  <!-- Fonts. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+  <!-- Bootstrap CSS. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link href="../css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Font Awesome Animations -->
+  <link rel="stylesheet" href="../third-party/font-awesome/font-awesome-animation.min.css">
+
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'VT323', sans-serif;
+}
+
+body {
+  background: #F7F6EB;
+  padding-top: 6%;
+  /*padding-bottom: 5%;*/
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Create two columns that float next to each other */
+.column1 {
+  padding-top: 10%;
+  float: left;
+  width: 35%;
+  height:80%;
+  /*padding: 10px;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.column2 {
+  float: left;
+  width: 65%;
+  height: 80%;
+  padding: 10px;
+  font-family: 'VT323', serif;
+  margin: 0 auto;
+  display: grid;
+  flex-direction: column;
+  grid-template-rows: 1fr 4fr;
+/*  justify-content: center;
+  align-items: center;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 400%;
+}
+
+/* For Low Highlight Effect. */
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E2DAC5 50%);
+}
+
+div.btn-container-rt {
+  display: flex;
+  float: right;
+}
+
+.btn-clr {
+  /*color: #E2DAC5;*/
+  background-color: #E2DAC5;
+  border-color: #E2DAC5;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+/* Footer. */
+.footer {
+  letter-spacing: 0.22em;
+  margin: 0 0 0.525em 0;
+  font-family: 'VT323', sans-serif;
+  background-color: #F7F6EB;
+  padding-top: 2%;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F7F6EB;font-family: 'VT323', serif;font-size:x-large;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="work.html">Work<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="speaking.html">Speaking</a>
+      </li>
+      <li class="nav-item btn-author">     
+        <a class="nav-link dropdown-toggle" href="pages/likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Interests
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="likes.html#book">Book Recommendations</a>
+          <a class="dropdown-item" href="likes.html#map">Places Visited</a>
+          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>  
+
+<div class="container">
+  <div style="width:90%;height:90%;border:6px solid #E2DAC5; padding-bottom: 1%">
+    <div style="text-align: center;"><h1><span class="highlight">Words & Projects</span></h1></div>
+      <div style="margin:2%; background-color: #E2DAC5;  ">
+<!-- <div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@pcharagondla","postsPerLine":3,"limit":3,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script> -->
+        <div id="retainable-rss-embed"
+        data-rss="https://medium.com/feed/@pcharagondla"
+        data-maxcols="3" 
+        data-layout="slider" 
+        data-poststyle="external" 
+        data-readmore="Read More" 
+        data-buttonclass="btn btn-outline-secondary rounded-0" 
+        data-offset="-100">
+      </div>        
+    </div>   
+    <a href="speaking.html">
+    <div class="btn-container-rt">
+      <div class="btn btn-clr btn-lg rounded-0" type="button" style="font-family: VT323;font-size:x-large;"">Speaking <i class="fas fa-arrow-right fa-xs faa-horizontal animated"></i> </div>
+    </div></a>
+  </div>
+</div>
+
+
+<script src="https://kit.fontawesome.com/341a7c9dcc.js" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Scripts. -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- Medium Scripts -->
+<script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
+// Scrolls to the selected menu item on the page
+$(function() {
+    $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
+</script>
+
+<p class="text-muted footer" align="center">
+  <a href="https://www.linkedin.com/in/pcharagondla/"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:#0072b1"></i>
+    <i class="fab fa-linkedin-in fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a>                      
+  <a href="https://twitter.com/pcharagondla"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:#1DA1F2"></i>
+    <i class="fab fa-twitter fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a>
+  <a href="https://medium.com/@pcharagondla"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:black"></i>
+    <i class="fab fa-medium-m fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a>
+  <a href="https://github.com/prathyushasai"><span class="fa-stack">
+    <i class="fa fa-square-full fa-stack-2x" style="color:#333"></i>
+    <i class="fab fa-github fa-stack-1x" style="color:#F7F6EB"></i>
+  </span></a></br>
+Copyright &copy; 2020 Prathyusha Charagondla</a></p>
+</body>
+</html>
