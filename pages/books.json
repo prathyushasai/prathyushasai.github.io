@@ -1,0 +1,28 @@
+[{
+    "id": "book01",
+    "color": "#021540",
+    "memimgsrc": "../assets/img/book_recs/ae.jpg",
+    "name": "Automating Inequality",
+    "author": "Virginia Eubanks",
+    "categories": "",
+    "description": ""
+  },
+  {
+    "id": "book02",
+    "color": "black",
+    "memimgsrc": "../assets/img/book_recs/alb.jpg",
+    "name": "Algorithms to Live By",
+    "author": "Brian Christian & Tom Griffiths",
+    "categories": "",
+    "description": ""
+  },
+  {
+    "id": "book03",
+    "color": "#1b1e23",
+    "memimgsrc": "../assets/img/book_recs/wmd.jpg",
+    "name": "Weapons of Math Destruction",
+    "author": "Cathy O'Neil",
+    "categories": "",
+    "description": ""
+  }
+]
