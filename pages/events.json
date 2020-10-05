@@ -1,7 +1,7 @@
 [{
     "color": "#021540",
     "memurl": "https://www.developerweek.com/global/conference/cloud/speakers/",
-    "memimgsrc": "../assets/img/dwc_2020.png",
+    "memimgsrc": "../assets/img/conf/dwc_2020.png",
     "eventname": "DeveloperWeek Cloud",
     "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
     "dates": "September 29-30, 2020",
@@ -10,7 +10,7 @@
   {
     "color": "black",
     "memurl": "https://www.devpulsecon.org/agenda-2020",
-    "memimgsrc": "../assets/img/dpc_2020.png",
+    "memimgsrc": "../assets/img/conf/dpc_2020.png",
     "eventname": "DevPulseCon",
     "talk": "Algorithmic Bias",
     "dates": "October 5-9, 2020",
@@ -19,10 +19,19 @@
   {
     "color": "#1b1e23",
     "memurl": "https://wearedevelopers.com/live/live-week",
-    "memimgsrc": "../assets/img/wad_live.jpg",
+    "memimgsrc": "../assets/img/conf/wad_live.jpg",
     "eventname": "WeAreDevelopers Live Week",
     "talk": "Algorithmic bias: preventing unfairness in your algorithms",
     "dates": "October 5-9, 2020",
+    "description": "Preventing Unfairness in out Algorithms"
+  },
+  {
+    "color": "#4a95cb",
+    "memurl": "https://www.powsfsu.org/",
+    "memimgsrc": "../assets/img/conf/pow.png",
+    "eventname": "Providing Opportunity for Women, SFSU",
+    "talk": "Owning Your Career Journey (Panelist)",
+    "dates": "October 7, 2020",
     "description": "Preventing Unfairness in out Algorithms"
   }
 ]
