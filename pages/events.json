@@ -1,19 +1,19 @@
-[{
-    "color": "#021540",
-    "memurl": "https://www.developerweek.com/global/conference/cloud/speakers/",
-    "memimgsrc": "../assets/img/conf/dwc_2020.png",
-    "eventname": "DeveloperWeek Cloud",
-    "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
-    "dates": "September 29-30, 2020",
-    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices."
+[  {
+    "color": "#101a43",
+    "memurl": "https://aidevworld.com/conference/speakers/",
+    "memimgsrc": "../assets/img/conf/aidw_2020.jpg",
+    "eventname": "AI DevWorld Virtual",
+    "talk": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
+    "dates": "October 27–29, 2020",
+    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
   },
-  {
-    "color": "black",
-    "memurl": "https://www.devpulsecon.org/agenda-2020",
-    "memimgsrc": "../assets/img/conf/dpc_2020.png",
-    "eventname": "DevPulseCon",
-    "talk": "Algorithmic Bias",
-    "dates": "October 5-9, 2020",
+ {
+    "color": "#4a95cb",
+    "memurl": "https://www.powsfsu.org/",
+    "memimgsrc": "../assets/img/conf/pow.png",
+    "eventname": "Providing Opportunity for Women, SFSU",
+    "talk": "Owning Your Career Journey (Panelist)",
+    "dates": "October 7, 2020",
     "description": "Preventing Unfairness in out Algorithms"
   },
   {
@@ -26,12 +26,30 @@
     "description": "Preventing Unfairness in out Algorithms"
   },
   {
-    "color": "#4a95cb",
-    "memurl": "https://www.powsfsu.org/",
-    "memimgsrc": "../assets/img/conf/pow.png",
-    "eventname": "Providing Opportunity for Women, SFSU",
-    "talk": "Owning Your Career Journey (Panelist)",
-    "dates": "October 7, 2020",
+    "color": "black",
+    "memurl": "https://www.devpulsecon.org/agenda-2020",
+    "memimgsrc": "../assets/img/conf/dpc_2020.png",
+    "eventname": "DevPulseCon",
+    "talk": "Algorithmic Bias",
+    "dates": "October 5-9, 2020",
     "description": "Preventing Unfairness in out Algorithms"
+  },
+    {
+    "color": "#021540",
+    "memurl": "https://www.developerweek.com/global/conference/cloud/speakers/",
+    "memimgsrc": "../assets/img/conf/dwc_2020.png",
+    "eventname": "DeveloperWeek Cloud Virtual",
+    "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
+    "dates": "September 29-30, 2020",
+    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices."
+  },    
+ {
+    "color": "#1b9bd4",
+    "memurl": "https://www.facebook.com/TechStartProgram/",
+    "memimgsrc": "../assets/img/conf/fb_techstart.png",
+    "eventname": "Facebook TechStart",
+    "talk": "Engineering Career Panel, Facebook HQ",
+    "dates": "May 24, 2017",
+    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices."
   }
 ]
