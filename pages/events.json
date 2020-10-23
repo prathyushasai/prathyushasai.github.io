@@ -1,8 +1,17 @@
 [  {
+    "color": "white",
+    "memurl": "https://www.usenix.org/conference/srecon20americas/presentation/charagondla",
+    "memimgsrc": "../assets/img/conf/srecon20.svg",
+    "eventname": "SREcon20 Americas",
+    "talk": "The Good, the Bad and the Ugly: The 3 Learnings of an SRE",
+    "dates": "December 7–9, 2020",
+    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
+  },
+  {
     "color": "#101a43",
     "memurl": "https://aidevworld.com/conference/speakers/",
     "memimgsrc": "../assets/img/conf/aidw_2020.jpg",
-    "eventname": "AI DevWorld Virtual",
+    "eventname": "AI DevWorld",
     "talk": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
     "dates": "October 27–29, 2020",
     "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
