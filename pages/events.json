@@ -7,7 +7,16 @@
     "dates": "December 7–9, 2020",
     "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
   },
-  {
+   {
+    "color": "#46a3da",
+    "memurl": "https://lesbianswhotech.org/debug2020/",
+    "memimgsrc": "../assets/img/conf/debug2020.png",
+    "eventname": "Debug 2020 Summit",
+    "talk": "Algorithmic Bias: How Changing the Way We Write Algorithms Can Prevent Bias & Discrimination",
+    "dates": "November 16–20, 2020",
+    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
+  }, 
+ {
     "color": "#101a43",
     "memurl": "https://aidevworld.com/conference/speakers/",
     "memimgsrc": "../assets/img/conf/aidw_2020.jpg",
