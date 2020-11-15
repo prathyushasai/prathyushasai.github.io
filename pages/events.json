@@ -5,8 +5,9 @@
     "eventname": "SREcon20 Americas",
     "talk": "The Good, the Bad and the Ugly: The 3 Learnings of an SRE",
     "dates": "December 7–9, 2020",
-    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
-  },
+    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
+    "link": ""
+},
    {
     "color": "#46a3da",
     "memurl": "https://lesbianswhotech.org/debug2020/",
@@ -14,7 +15,8 @@
     "eventname": "Debug 2020 Summit",
     "talk": "Algorithmic Bias: How Changing the Way We Write Algorithms Can Prevent Bias & Discrimination",
     "dates": "November 16–20, 2020",
-    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
+    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
+    "link": "https://events.bizzabo.com/253465/agenda/session/422468"
   }, 
  {
     "color": "#c8611c",
@@ -23,8 +25,9 @@
     "eventname": "DeveloperWeek Austin",
     "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
     "dates": "November 17–18, 2020",
-    "description": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs"
-  },
+    "description": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
+    "link": ""
+ },
  {
     "color": "#101a43",
     "memurl": "https://aidevworld.com/conference/speakers/",
@@ -32,8 +35,9 @@
     "eventname": "AI DevWorld",
     "talk": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
     "dates": "October 27–29, 2020",
-    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms"
-  },
+    "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
+    "link": ""
+ },
  {
     "color": "#4a95cb",
     "memurl": "https://www.powsfsu.org/",
@@ -42,7 +46,8 @@
     "talk": "Owning Your Career Journey (Panelist)",
     "dates": "October 7, 2020",
     "description": "Preventing Unfairness in out Algorithms"
-  },
+    "link": ""
+ },
   {
     "color": "#1b1e23",
     "memurl": "https://wearedevelopers.com/live/live-week",
@@ -50,7 +55,8 @@
     "eventname": "WeAreDevelopers Live Week",
     "talk": "Algorithmic bias: preventing unfairness in your algorithms",
     "dates": "October 5-9, 2020",
-    "description": "Preventing Unfairness in out Algorithms"
+    "description": "Preventing Unfairness in out Algorithms",
+    "link": ""
   },
   {
     "color": "black",
@@ -69,8 +75,9 @@
     "eventname": "DeveloperWeek Cloud Virtual",
     "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
     "dates": "September 29-30, 2020",
-    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices."
-  },    
+    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices.",
+    "link": ""
+    },    
  {
     "color": "#1b9bd4",
     "memurl": "https://www.facebook.com/TechStartProgram/",
@@ -78,6 +85,7 @@
     "eventname": "Facebook TechStart",
     "talk": "Engineering Career Panel, Facebook HQ",
     "dates": "May 24, 2017",
-    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices."
+    "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices.",
+    "link": ""
   }
 ]
