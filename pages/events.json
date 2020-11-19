@@ -6,7 +6,8 @@
     "talk": "The Good, the Bad and the Ugly: The 3 Learnings of an SRE",
     "dates": "December 7–9, 2020",
     "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
-    "link": ""
+    "link": "",
+    "slides": ""
 },
    {
     "color": "#46a3da",
@@ -16,7 +17,8 @@
     "talk": "Algorithmic Bias: How Changing the Way We Write Algorithms Can Prevent Bias & Discrimination",
     "dates": "November 16–20, 2020",
     "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
-    "link": "https://events.bizzabo.com/253465/agenda/session/422468"
+    "link": "https://events.bizzabo.com/253465/agenda/session/422468",
+    "slides": "https://bit.ly/3nC7t7C"
   }, 
  {
     "color": "#c8611c",
@@ -26,7 +28,8 @@
     "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
     "dates": "November 17–18, 2020",
     "description": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
-    "link": ""
+    "link": "",
+    "slides": ""
  },
  {
     "color": "#101a43",
@@ -36,7 +39,8 @@
     "talk": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
     "dates": "October 27–29, 2020",
     "description": "Algorithmic Bias: Preventing Unfairness in Your Algorithms",
-    "link": ""
+    "link": "",
+    "slides": ""
  },
  {
     "color": "#4a95cb",
@@ -46,7 +50,8 @@
     "talk": "Owning Your Career Journey (Panelist)",
     "dates": "October 7, 2020",
     "description": "Preventing Unfairness in out Algorithms",
-    "link": ""
+    "link": "",
+    "slides": ""
  },
   {
     "color": "#1b1e23",
@@ -56,7 +61,8 @@
     "talk": "Algorithmic bias: preventing unfairness in your algorithms",
     "dates": "October 5-9, 2020",
     "description": "Preventing Unfairness in out Algorithms",
-    "link": ""
+    "link": "",
+    "slides": ""
   },
   {
     "color": "black",
@@ -66,7 +72,8 @@
     "talk": "Algorithmic Bias",
     "dates": "October 5-9, 2020",
     "description": "Preventing Unfairness in out Algorithms",
-    "link": "https://youtu.be/RkvUVPw6G2o?t=690"
+    "link": "https://youtu.be/RkvUVPw6G2o?t=690",
+    "slides": ""
   },
     {
     "color": "#021540",
@@ -76,7 +83,8 @@
     "talk": "The Good, the Bad and the Ugly: Keeping your Service Reliable with SLIs and SLOs",
     "dates": "September 29-30, 2020",
     "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices.",
-    "link": ""
+    "link": "",
+    "slides": ""
     },    
  {
     "color": "#1b9bd4",
@@ -86,6 +94,7 @@
     "talk": "Engineering Career Panel, Facebook HQ",
     "dates": "May 24, 2017",
     "description": "With increasing service traffic and services scaling, the need to ensure reliability and customer satisfaction has never been higher. How can we ensure that a service is reliable and the needs of customers are met? Through defining and monitoring SLIs and SLOs! This talk will cover why strategically defining SLIs, SLOs and SLAs and monitoring SLIs can help improve the reliability of your service and ensure customer satisfaction in the long term. We follow this by walking through the process of defining these critical metrics, and go through some case studies and industry practices.",
-    "link": ""
+    "link": "",
+    "slides": ""
   }
 ]
