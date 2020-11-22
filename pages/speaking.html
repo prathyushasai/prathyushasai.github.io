@@ -269,11 +269,13 @@ div.btn-container-rt {
             <p class="talk"></p>
             <p class="dates"></p>
             <p class="description"></p>
+            <div class="allLinks">
+            </div>  
           </div>
 
         </div>
       </script>
-
+<!--               <a class="recording" href="" target="_blank">Recording</a> | <a class="slides" href="" target="_blank">Slides</a> -->
     </div>
     </div>
     <a href="likes.html">
@@ -332,6 +334,20 @@ function append_json(data) {
     $(newItem).find(".eventname").html(object.eventname);
     $(newItem).find(".talk").html(object.talk);
     $(newItem).find(".dates").html(object.dates);
+    // Adds Recording and Slides links if present in JSON
+    div = ""
+    if(object.link != "") { 
+      div += '<a class=\"recording\" href=\"'+ object.link +'\" target=\"_blank\">Recording</a>'  
+    }
+    if(object.slides != "") {
+      if(div == "") {
+        div += '<a class="slides" href="" target="_blank">Slides</a>' 
+      } else {
+        div += ' | <a class=\"slides\" href=\"'+ object.slides +'\" target=\"_blank\">Slides</a>'
+      }
+    }  
+    console.log(div)
+    $(newItem).find(".allLinks").after(div);
     // $(newItem).find(".description").html(object.description);
     //Append it
 
