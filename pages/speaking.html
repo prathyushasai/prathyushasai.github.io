@@ -340,11 +340,10 @@ function append_json(data) {
       div += '<a class=\"recording\" href=\"'+ object.link +'\" target=\"_blank\">Recording</a>'  
     }
     if(object.slides != "") {
-      if(div == "") {
-        div += '<a class="slides" href="" target="_blank">Slides</a>' 
-      } else {
-        div += ' | <a class=\"slides\" href=\"'+ object.slides +'\" target=\"_blank\">Slides</a>'
+      if(div != "") {
+        div += ' | ' 
       }
+      div += '<a class=\"slides\" href=\"'+ object.slides +'\" target=\"_blank\">Slides</a>'
     }  
     console.log(div)
     $(newItem).find(".allLinks").after(div);
