@@ -1,4 +1,16 @@
-[  {
+[  
+   {
+    "color": "#99465c",
+    "memurl": "https://womenintechsummit.net/fall2021virtual/",
+    "memimgsrc": "../assets/img/conf/wits.png",
+    "eventname": "Women in Tech Summit",
+    "talk": "Keeping your Service Reliable",
+    "dates": "October 20-22, 2021",
+    "description": "",
+    "link": "",
+    "slides": ""
+  }, 
+    {
     "color": "white",
     "memurl": "https://www.usenix.org/conference/srecon20americas/presentation/charagondla",
     "memimgsrc": "../assets/img/conf/srecon20.svg",
