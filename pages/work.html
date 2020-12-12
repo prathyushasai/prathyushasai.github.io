@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Prathyusha Charagondla</title>
+<link rel="shortcut icon" href="">
 
   <!-- Fonts. -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
@@ -81,7 +82,7 @@ div.container {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 350%;
 }
 
 /* For Low Highlight Effect. */
@@ -100,6 +101,21 @@ div.btn-container-rt {
   border-color: #E2DAC5;
   font-weight: bold;
   letter-spacing: 0.05em;
+}
+
+.menu td {
+  padding-bottom:3.5%;
+  margin:1%;
+}
+
+.name {
+  vertical-align: top;
+  font-size: x-large;
+}
+
+.desc{
+  font-size: large;
+  padding-left: 5%;
 }
 
 /* Footer. */
@@ -127,9 +143,15 @@ div.btn-container-rt {
       <li class="nav-item">
         <a class="nav-link" href="../index.html">Home</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="work.html">Work<span class="sr-only">(current)</span></a>
-      </li>
+      <li class="nav-item btn-author active" style="position: relative;">     
+        <a class="nav-link dropdown-toggle" href="pages/likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Work <span class="sr-only">(current)</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#awards">Awards</a>
+          <a class="dropdown-item" href="#words">Writing</a>
+        </div>
+      </li>      
       <li class="nav-item">
         <a class="nav-link" href="speaking.html">Speaking</a>
       </li>
@@ -149,7 +171,36 @@ div.btn-container-rt {
 
 <div class="container">
   <div style="width:90%;height:90%;border:6px solid #E2DAC5; padding-bottom: 1%">
-    <div style="text-align: center;"><h1><span class="highlight">Words & Projects</span></h1></div>
+
+    <div style="text-align: center;" id="awards"><h1><span class="highlight">Work</span></h1></div>
+    <div style="text-align: center;"><h2><span class="highlight">Awards</span></h2></div>
+      <div style="margin:10%; margin-top:3%">
+        <table class="menu">
+          <tr>
+            <h2 class="name">Hackathons:</h2>
+            <ul class="desc">
+              <li>DocuSign Momentum Hackathon (Best DocuSign and Google Integration, 2018) | <a target="_blank" href="https://github.com/prathyushasai/kusuri">link</a></li>
+              <li>AT&T AR/VR Hackathon (1st Place, 2017) | <a target="_blank" href="https://github.com/Starshine3/Kindred_Spirits">link</a></li>
+            </ul>
+          </tr>
+          <tr>
+            <h2 class="name">Academia:&nbsp;&nbsp;&nbsp;</h2>
+            <ul class="desc">
+            <li>UC Berkeley Data Science Service to the Community Award (2019) | <a target="_blank" href="https://data.berkeley.edu/news/data-science-grads-shine-commencement">link</a></li>
+            <li>KLOK 1170 AM Community Service Scholarship Award (2015)</li>
+            <li>AFCEA STEM Research Grant (2014)</li>
+            </ul>
+          </tr>
+          <tr>
+            <h2 class="name">Creative: </h2>
+            <ul class="desc">
+              <li>Guinness World Records (Largest Kuchipudi Dance, 2011)</li>
+            </ul>
+          </tr>
+        </table>
+    </div>
+    <div id="words"></div>
+    <div style="text-align: center;"><h2><span class="highlight">Words & Projects</span></h2></div>
       <div style="margin:2%; background-color: #E2DAC5;  ">
 <!-- <div id="medium-widget"></div>
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
