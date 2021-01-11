@@ -10,6 +10,17 @@
     "link": "",
     "slides": ""
   }, 
+   {
+    "color": "#151a53",
+    "memurl": "https://emamo.com/event/developerweek-2021/s/open-talk-cloudworld-the-good-the-bad-and-the-ugly-keeping-your-service-reliable-with-slis-and-slos-o1p1bW",
+    "memimgsrc": "../assets/img/conf/cw.png",
+    "eventname": "CloudWorld",
+    "talk": "The Good, the Bad and the Ugly: Keeping Your Service Reliable with SLIs and SLOs",
+    "dates": "February 17–21, 2021",
+    "description": "",
+    "link": "",
+    "slides": ""
+  }, 
     {
     "color": "white",
     "memurl": "https://www.usenix.org/conference/srecon20americas/presentation/charagondla",
