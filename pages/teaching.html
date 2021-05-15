@@ -25,7 +25,7 @@
   outline: none;
   box-sizing: border-box;
   font-family: 'VT323', sans-serif;
-} 
+}
 
 body {
   background: #F7F6EB;
@@ -82,114 +82,13 @@ div.container {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 350%;
 }
 
 /* For Low Highlight Effect. */
 .highlight {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E2DAC5 50%);
 }
-
-/* grid content START */
-.newmembers {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
-  grid-auto-rows: 450px;
-  grid-auto-flow: dense;
-  justify-content: center;
-  padding: 10px 10px 10px;
-}
-
-.member {
-  background: #E2DAC5;
-  border: 1px solid grey;
-  text-align: center;
-  border-radius: 4px;
-  box-shadow: 3px 3px 3px grey;
-}
-
-.type {
-  color: black;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin: 5px 5px 0px;
-  text-align: center;
-}
-
-.year {
-  color: black;
-  font-weight: bold;
-  font-size: x-small;
-  margin: 0px 0px 0px;
-  text-align: center;
-}
-
-.box {
-  width: 100%;
-  height: 200px;
-  min-height: 160px;
-  max-height: 200px;
-  min-width: 160px;
-  max-width: 100%; 
-  object-fit: cover;
-  overflow: hidden;
-  object-position: center top;
-  -o-object-fit: cover;
-  object-fit: cover;
-  overflow: hidden;
-  /*border: 5px solid #fff;*/
-  /*border-radius: 4px;*/
-  /*box-shadow: 5px 5px 5px grey;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.thumb {
-  max-width:100%;
-  max-height:100%;
-}
-
-.thumb:hover {
-  position: relative;
-  top: 5px;
-  left: 5px;
-}
-
-.eventname {
-  color: black;
-  font-weight: bold;
-  font-size: x-large;
-  text-transform: uppercase;
-  margin: 20px 0px 20px;
-}
-
-.talk {
-  color: #333333; 
-  font-size: medium;
-  font-style: italic;
-  margin: 0px 0px 15px;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.dates {
-  color: #333333;
-  margin: 0px 0px 5px;
-  font-size: large; 
-}
-
-.description {
-  color: #333333;
-  font-weight: bold;
-  margin: 0px 0px 10px;
-  font-size: x-small;
-}
-
-.info {
-  margin: 10px;
-}
-/* grid content END */
 
 div.btn-container-rt {
   display: flex;
@@ -202,6 +101,21 @@ div.btn-container-rt {
   border-color: #E2DAC5;
   font-weight: bold;
   letter-spacing: 0.05em;
+}
+
+.menu td {
+  padding-bottom:3.5%;
+  margin:1%;
+}
+
+.name {
+  vertical-align: top;
+  font-size: x-large;
+}
+
+.desc{
+  font-size: large;
+  padding-left: 5%;
 }
 
 /* Footer. */
@@ -257,37 +171,28 @@ div.btn-container-rt {
 
 <div class="container">
   <div style="width:90%;height:90%;border:6px solid #E2DAC5; padding-bottom: 1%">
-    <div style="text-align: center;"><h1><span class="highlight">Talks & Workshops</span></h1></div>
-      <div>
 
-    <div class="newmembers">
-
-      <!-- Template for our posts -->
-      <script type="text/template" id="postTemplate">
-        <div class="member">
-          <a class="memurl" href="" target="_blank">
-            <div class="box">
-            <img class="thumb" alt="Conference: " title="Conference: " src="" >
-          </div>
-          </a>
-          <!-- Replaced p  with div, can't nest p tags -->
-          <div class="info">
-            <p class="eventname"></p>
-            <p class="talk"></p>
-            <p class="dates"></p>
-            <p class="description"></p>
-            <div class="allLinks">
-            </div>  
-          </div>
-
-        </div>
-      </script>
-<!--               <a class="recording" href="" target="_blank">Recording</a> | <a class="slides" href="" target="_blank">Slides</a> -->
-    </div>
-    </div>
-    <a href="likes.html">
-      <div class="btn-container-rt">
-        <div class="btn btn-clr btn-lg rounded-0" type="button" style="font-family: VT323;font-size:x-large;">Interests <i class="fas fa-arrow-right fa-xs faa-horizontal animated"></i> </div>
+    <div style="text-align: center;" id="teaching"><h1><span class="highlight">Teaching</span></h1></div>
+    <div style="text-align: center;"><h2><span class="highlight">Graduate Student Instructor</span></h2></div>
+      <div style="margin:10%; margin-top:3%">
+        <table class="menu">
+          <tr>
+            <h2 class="name">W203: Statistics for Data Science (<a href="https://mids-w203.github.io/syllabus/">Syllabus</a>)</h2>
+            <ul class="desc">
+              <li>Office Hours: Math Review | <a target="_blank" href="https://drive.google.com/file/d/1Q3K5aXkg4C96o5unsWiS8ZGUw3M2wwA6/view?usp=sharing">link</a></li>
+            </ul>
+          </tr>
+          <tr>
+            <h2 class="name">TechHive AI Instructor  (<a href="https://citrispolicylab.org/techhiveai/">Program</a>)&nbsp;&nbsp;&nbsp;</h2>
+            <ul class="desc">
+              <li>To Be Added ...</li>
+            </ul>
+          </tr>
+        </table>
+    </div>  
+    <a href="speaking.html">
+    <div class="btn-container-rt">
+      <div class="btn btn-clr btn-lg rounded-0" type="button" style="font-family: VT323;font-size:x-large;"">Speaking <i class="fas fa-arrow-right fa-xs faa-horizontal animated"></i> </div>
     </div></a>
   </div>
 </div>
@@ -301,71 +206,11 @@ div.btn-container-rt {
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+<!-- Medium Scripts -->
+<script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
 <!-- Custom Theme JavaScript -->
 <script>
-
-function get_json_data() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var data = JSON.parse(this.responseText);
-      append_json(data);
-    }
-  };
-  xmlhttp.open("GET", "events.json", true);
-  xmlhttp.send();  
-}
-
-function append_json(data) {
-  //Set Up the template
-  var s = $("#postTemplate")[0].innerHTML.trim();
-  var holder = document.createElement('div');
-  holder.innerHTML = s;
-  var template = holder.childNodes;
-
-  var member = document.getElementById('newmembers');
-  data.forEach(function(object) {
-
-    //Clone Template
-    var newItem = $(template).clone();
-
-    //Populate it
-    $(newItem).find(".type").html(object.type);
-    $(newItem).find(".year").html($(newItem).find(".year").html() + " " + object.year);
-    $(newItem).find(".memurl").attr("href", object.memurl);
-    var img = $(newItem).find(".thumb")
-    $(img).attr("src", object.memimgsrc).attr("alt", $(img).attr("alt") + object.eventname)
-      .attr("title", $(img).attr("title") + object.eventname);
-    $(newItem).find(".box").attr("style", "background-color:" + object.color);
-    $(newItem).find(".eventname").html(object.eventname);
-    $(newItem).find(".talk").html(object.talk);
-    $(newItem).find(".dates").html(object.dates);
-    // Adds Recording and Slides links if present in JSON
-    div = ""
-    if(object.link != "") { 
-      div += '<a class=\"recording\" href=\"'+ object.link +'\" target=\"_blank\">Recording</a>'  
-    }
-    if(object.slides != "") {
-      if(div != "") {
-        div += ' | ' 
-      }
-      div += '<a class=\"slides\" href=\"'+ object.slides +'\" target=\"_blank\">Slides</a>'
-    }  
-    console.log(div)
-    $(newItem).find(".allLinks").after(div);
-    // $(newItem).find(".description").html(object.description);
-    //Append it
-
-    $(".newmembers").append(newItem);
-
-  });
-}
-
-$("document").ready(function() {
-  get_json_data();
-});
-
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
     e.preventDefault();
