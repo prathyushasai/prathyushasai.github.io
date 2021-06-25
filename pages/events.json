@@ -11,6 +11,17 @@
     "slides": ""
   }, 
    {
+    "color": "white",
+    "memurl": "https://genheration.com/",
+    "memimgsrc": "../assets/img/conf/genheration.png",
+    "eventname": "GenHERation",
+    "talk": "Career Panel",
+    "dates": "July 12, 2021",
+    "description": "",
+    "link": "",
+    "slides": ""
+  },
+   {
     "color": "#151a53",
     "memurl": "https://emamo.com/event/developerweek-2021/s/open-talk-cloudworld-the-good-the-bad-and-the-ugly-keeping-your-service-reliable-with-slis-and-slos-o1p1bW",
     "memimgsrc": "../assets/img/conf/cw.png",
