@@ -4,6 +4,7 @@
 
 # Events.json Structure
 
+```
    {
     "color": logo_background_color,
     "memurl": conference/speaker_profile,
@@ -15,3 +16,4 @@
     "link": recording_link,
     "slides": slides_link
   }
+```
