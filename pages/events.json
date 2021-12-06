@@ -1,5 +1,16 @@
 [  
    {
+    "color": "#0d5688",
+    "memurl": "https://lesbianswhotech.org/debugsummit2021/",
+    "memimgsrc": "../assets/img/conf/debug2021.png",
+    "eventname": "Debug 2021 Summit",
+    "talk": "Keeping Your Service Reliable Through Monitoring & Alerting",
+    "dates": "December 6-9, 2021",
+    "description": "",
+    "link": "https://events.bizzabo.com/349632/agenda/session/678848",
+    "slides": ""
+  }, 
+   {
     "color": "#99465c",
     "memurl": "https://womenintechsummit.net/fall2021virtual/",
     "memimgsrc": "../assets/img/conf/wits.png",
