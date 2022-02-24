@@ -144,12 +144,12 @@ div.btn-container-rt {
         <a class="nav-link" href="../index.html">Home</a>
       </li>
       <li class="nav-item btn-author active" style="position: relative;">     
-        <a class="nav-link dropdown-toggle" href="pages/likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="work.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Work <span class="sr-only">(current)</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="teaching.html#teaching">Teaching</a>
           <a class="dropdown-item" href="#awards">Awards</a>
+          <a class="dropdown-item" href="teaching.html#teaching">Teaching</a>
           <a class="dropdown-item" href="#words">Writing</a>
         </div>
       </li>      
@@ -157,7 +157,7 @@ div.btn-container-rt {
         <a class="nav-link" href="speaking.html">Speaking</a>
       </li>
       <li class="nav-item btn-author">     
-        <a class="nav-link dropdown-toggle" href="pages/likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="likes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Interests
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -195,6 +195,7 @@ div.btn-container-rt {
             <ul class="desc">
             <li>Graduate Remote Instruction Innovation Fellow (2021)</li>
             <li>UC Berkeley Data Science Service to the Community Award (2019) | <a target="_blank" href="https://data.berkeley.edu/news/data-science-grads-shine-commencement">link</a></li>
+            <li>Berkeley Method of Entrepreneurship Bootcamp (2nd Place, 2017) | <a target="_blank" href="https://scet.berkeley.edu/berkeley-method-entrepreneurship-bootcamp-winners-announced-fall-2017/">link</a></li>
             <li>KLOK 1170 AM Community Service Scholarship Award (2015)</li>
             <li>AFCEA STEM Research Grant (2014)</li>
             </ul>
@@ -202,10 +203,17 @@ div.btn-container-rt {
           <tr>
             <h2 class="name">🏅 Certificates:&nbsp;&nbsp;&nbsp;</h2>
             <ul class="desc">
-            <li><b>Graduate Remote Instruction Innovation Fellow</b>, University of California, Berkeley (January 2021)| <a target="_blank" href="https://drive.google.com/file/d/1RBumBnuEcAzvE54vguZgOg6iNxa4UDWT/view?usp=sharing">link</a></li>
+            <li><b>Graduate Remote Instruction Innovation Fellow</b>, University of California, Berkeley (January 2021) | <a target="_blank" href="https://drive.google.com/file/d/1RBumBnuEcAzvE54vguZgOg6iNxa4UDWT/view?usp=sharing">link</a></li>
             <li><b>Certificate for Entrepreneurship & Technology</b>, Sutardja Center for Entrepreneurship and Technology (January 2018) | <a target="_blank" href="https://drive.google.com/file/d/0B6rGQ4t28Wf4SWdpcWNxek5wOFliUU92QmM2MVN5VTdjV3Bn/view?usp=sharing">link</a></li>
             </ul>
           </tr>
+          <tr>
+            <h2 class="name">🌎 In the Web:&nbsp;&nbsp;&nbsp;</h2>
+            <ul class="desc">
+            <li><b>Data Science Graduate Profile</b>, Computing, Data Science, and Society @ UC Berkeley | <a target="_blank" href="https://data.berkeley.edu/graduate-profile-prathyusha-charagondla">link</a></li>
+            </ul>
+          </tr>
+          <tr>
           <tr>
             <h2 class="name">🎨 Creative: </h2>
             <ul class="desc">
@@ -220,19 +228,18 @@ div.btn-container-rt {
 <!-- <div id="medium-widget"></div>
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
     <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@pcharagondla","postsPerLine":3,"limit":3,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script> -->
-<div id="medium-widget"></div>
+<!-- <div id="medium-widget"></div>
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@pcharagondla","postsPerLine":3,"limit":5,"picture":"small","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
-
-<!--         <div id="retainable-rss-embed"
-        data-rss="https://medium.com/feed/@pcharagondla"
-        data-maxcols="3" 
-        data-layout="slider" 
-        data-poststyle="external" 
-        data-readmore="Read More" 
-        data-buttonclass="btn btn-outline-secondary rounded-0" 
-        data-offset="-100">
-      </div>    -->     
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@pcharagondla","postsPerLine":3,"limit":5,"picture":"small","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script> -->
+      <link href="/retainable.css">
+      <div id="retainable-rss-embed" 
+      data-rss="https://medium.com/feed/@pcharagondla"
+      data-maxcols="3" 
+      data-layout="slider" 
+      data-poststyle="external" 
+      data-readmore="Read More" 
+      data-buttonclass="btn btn-outline-secondary rounded-0" 
+      data-offset="-100"></div>    
     </div>   
     <a href="speaking.html">
     <div class="btn-container-rt">
@@ -251,7 +258,7 @@ div.btn-container-rt {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 <!-- Medium Scripts -->
-<!-- <script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
+<script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
 <!-- Custom Theme JavaScript -->
 <script>
