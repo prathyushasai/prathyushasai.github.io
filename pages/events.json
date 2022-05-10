@@ -1,5 +1,38 @@
 [  
    {
+    "color": "#27b4dc",
+    "memurl": "https://lesbianswhotech.org/pridesummit2022/",
+    "memimgsrc": "../assets/img/conf/pride2022.png",
+    "eventname": "Pride Summit 2022",
+    "talk": "Ask Me Anything (Panelist)",
+    "dates": "June 6-10, 2022",
+    "description": "",
+    "link": "",
+    "slides": ""
+  }, 
+   {
+    "color": "#4e2386",
+    "memurl": "https://swe.berkeley.edu/",
+    "memimgsrc": "../assets/img/conf/swe.png",
+    "eventname": "Society of Women Engineers (SWE) @ UC Berkeley",
+    "talk": "Women in Industry Panel (Panelist)",
+    "dates": "April 14, 2022",
+    "description": "",
+    "link": "",
+    "slides": ""
+  }, 
+   {
+    "color": "#f37736",
+    "memurl": "https://uceap.universityofcalifornia.edu/",
+    "memimgsrc": "../assets/img/conf/uceap.png",
+    "eventname": "UC Education Abroad Program (UCEAP)",
+    "talk": "Singapore Alumni Panel (Panelist)",
+    "dates": "April 13, 2022",
+    "description": "",
+    "link": "",
+    "slides": ""
+  }, 
+   {
     "color": "#A7AAA3",
     "memurl": "https://www.peninsulabridge.org/",
     "memimgsrc": "../assets/img/conf/pb.png",
@@ -14,7 +47,7 @@
     "color": "#0d5688",
     "memurl": "https://lesbianswhotech.org/debugsummit2021/",
     "memimgsrc": "../assets/img/conf/debug2021.png",
-    "eventname": "Debug 2021 Summit",
+    "eventname": "Debug Summit 2021",
     "talk": "Keeping Your Service Reliable Through Monitoring & Alerting",
     "dates": "December 6-9, 2021",
     "description": "",
