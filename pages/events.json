@@ -1,5 +1,16 @@
 [  
-   {
+  {
+    "color": "white",
+    "memurl": "https://www.ischool.berkeley.edu/events/2022/deibj-berkeley-i-school",
+    "memimgsrc": "../assets/img/conf/ucbischool.png",
+    "eventname": "Diversity, Equity, Inclusion, Belonging, and Justice (DEIBJ) @ Berkeley I School",
+    "talk": "Community Panel",
+    "dates": "November 2, 2022",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  }, 
+  {
     "color": "#27b4dc",
     "memurl": "https://lesbianswhotech.org/pridesummit2022/",
     "memimgsrc": "../assets/img/conf/pride2022.png",
