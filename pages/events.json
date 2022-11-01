@@ -11,6 +11,17 @@
     "slides": ""  
   }, 
   {
+    "color": "white",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/cdss.png",
+    "eventname": "UC Berkeley Data Science Undergraduate Studies (DSUS)",
+    "talk": "Networking Panel",
+    "dates": "October 27, 2022",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  }, 
+  {
     "color": "#27b4dc",
     "memurl": "https://lesbianswhotech.org/pridesummit2022/",
     "memimgsrc": "../assets/img/conf/pride2022.png",
