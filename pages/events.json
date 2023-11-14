@@ -1,6 +1,17 @@
 [  
   {
     "color": "white",
+    "memurl": "https://www.ischool.berkeley.edu/events/2023/how-land-data-science-job",
+    "memimgsrc": "../assets/img/conf/ucbischool.png",
+    "eventname": "UC Berkeley School of Information",
+    "talk": "How to Land a Data Science Job (Panelist)",
+    "dates": "October 24, 2023",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
+    "color": "white",
     "memurl": "https://www.ischool.berkeley.edu/events/2022/deibj-berkeley-i-school",
     "memimgsrc": "../assets/img/conf/ucbischool.png",
     "eventname": "Diversity, Equity, Inclusion, Belonging, and Justice (DEIBJ) @ Berkeley I School",
