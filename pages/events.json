@@ -1,11 +1,55 @@
 [  
   {
+    "color": "#f8171b",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/adobe.jpeg",
+    "eventname": "Adobe Women’s Executive Shadow Program (WESP)",
+    "talk": "Amplification of Women Through Networking (Panel Moderator)",
+    "dates": "August 13, 2024",
+    "description": "",
+    "link": "https://blog.adobe.com/en/publish/2021/03/24/adobe-wesp-helps-motivated-women-reach-new-levels",
+    "slides": ""  
+  },
+  {
+    "color": "#f8171b",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/adobe.jpeg",
+    "eventname": "Adobe x UC Berkeley CS Kickstart",
+    "talk": "Career Panel (Panelist)",
+    "dates": "August 7, 2024",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
+    "color": "#f8171b",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/adobe.jpeg",
+    "eventname": "Adobe Women’s Executive Shadow Program (WESP)",
+    "talk": "Volunteer Voices: Career Impact (Panelist)",
+    "dates": "April 23, 2024",
+    "description": "",
+    "link": "https://blog.adobe.com/en/publish/2021/03/24/adobe-wesp-helps-motivated-women-reach-new-levels",
+    "slides": ""  
+  },
+  {
     "color": "white",
     "memurl": "https://www.ischool.berkeley.edu/events/2023/how-land-data-science-job",
     "memimgsrc": "../assets/img/conf/ucbischool.png",
     "eventname": "UC Berkeley School of Information",
     "talk": "How to Land a Data Science Job (Panelist)",
     "dates": "October 24, 2023",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
+    "color": "#f8171b",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/adobe.jpeg",
+    "eventname": "Adobe x Townley Grammar School",
+    "talk": "Career Panel (Panelist)",
+    "dates": "February 9, 2023",
     "description": "",
     "link": "",
     "slides": ""  
