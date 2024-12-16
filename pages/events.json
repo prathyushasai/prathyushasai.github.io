@@ -1,5 +1,16 @@
 [  
   {
+    "color": "white",
+    "memurl": "https://www.breakthroughtech.org/programs/the-ai-program/",
+    "memimgsrc": "../assets/img/conf/adobe.jpeg",
+    "eventname": "Break Through Tech AI",
+    "talk": "Maker Day - Machine Learning Technical Interview Workshop",
+    "dates": "September 7, 2024",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
     "color": "#f8171b",
     "memurl": "https://blog.adobe.com/en/publish/2021/03/24/adobe-wesp-helps-motivated-women-reach-new-levels",
     "memimgsrc": "../assets/img/conf/adobe.jpeg",
