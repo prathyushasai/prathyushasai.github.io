@@ -12,6 +12,17 @@
   },
   {
     "color": "white",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/tmcf.png",
+    "eventname": "Thurgood Marshall College Fund (TMCF) x Adobe Immersion",
+    "talk": "Software Engineering Industry Panel",
+    "dates": "February 27, 2025",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
+    "color": "white",
     "memurl": "https://www.breakthroughtech.org/programs/the-ai-program/",
     "memimgsrc": "../assets/img/conf/bttai.png",
     "eventname": "Break Through Tech AI",
