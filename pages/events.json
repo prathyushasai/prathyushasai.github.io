@@ -1,6 +1,28 @@
 [  
   {
     "color": "#fdb515",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/anitab.webp",
+    "eventname": "AnitaB.org x Adobe",
+    "talk": "AI/ML @ Adobe",
+    "dates": "March 31, 2025",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
+    "color": "white",
+    "memurl": "",
+    "memimgsrc": "../assets/img/conf/ucbischool.png",
+    "eventname": "UC Berkeley School of Information",
+    "talk": "Virtual Immersion",
+    "dates": "March 25, 2025",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
+    "color": "#fdb515",
     "memurl": "https://www.ischool.berkeley.edu/events/2025/women-tech-panel",
     "memimgsrc": "../assets/img/conf/ucb.webp",
     "eventname": "UC Berkeley",
