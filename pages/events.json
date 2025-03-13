@@ -1,5 +1,16 @@
 [  
   {
+    "color": "#fdb515",
+    "memurl": "https://www.ischool.berkeley.edu/events/2025/women-tech-panel",
+    "memimgsrc": "../assets/img/conf/ucb.webp",
+    "eventname": "UC Berkeley",
+    "talk": "Women in Engineering Panel",
+    "dates": "March 12, 2025",
+    "description": "",
+    "link": "",
+    "slides": ""  
+  },
+  {
     "color": "white",
     "memurl": "https://www.breakthroughtech.org/programs/the-ai-program/",
     "memimgsrc": "../assets/img/conf/bttai.png",
